@@ -11,8 +11,11 @@
     kr_films: 'data/kr_films.csv',
     kr_tests: 'data/kr_tests.csv',
     kr_sensitivity: 'data/kr_sensitivity.csv',
+    market_supply: 'data/market_supply.csv',
+    kr_genre_year: 'data/kr_genre_year.csv',
+    market_genre_year: 'data/market_genre_year.csv',
   };
-  const DEFAULT_PARAMS = {year: '2026', fmt: 'd4'};
+  const DEFAULT_PARAMS = {year: '평균', kyear: '전체', fmt: 'd4'};
 
   const store = {};          // id -> {status, data, columns}
   const calcs = [];          // [{id, inputs, fn}]

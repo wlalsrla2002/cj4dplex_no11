@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>특별관 장르 적합도</title>
-<meta name="description" content="한국 KOBIS 좌석점유율로 찾은 특별관(4D·ScreenX) 적합 작품 특징을 해외 박스오피스 트렌드에 대입한 분석 대시보드 · 김지민 CJ 4DPLEX 사전과제">
+<meta name="description" content="한국 KOBIS 좌석판매율로 찾은 특별관(4D·ScreenX) 적합 작품 특징을 해외 박스오피스 트렌드에 대입한 분석 대시보드 · 김지민 CJ 4DPLEX 사전과제">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <style>
 :root{
@@ -98,6 +98,7 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
 .vz table.dr th{text-align:left;font-size:12px;font-weight:600;color:var(--color-fg-muted);padding:6px 8px;border-bottom:1px solid var(--color-border-line);white-space:nowrap}
 .vz table.dr td{padding:7px 8px;border-bottom:1px solid var(--color-border-line);vertical-align:middle}
 .vz table.dr td.t{font-weight:600;max-width:16rem}
+.vz table.dr th.num,.vz table.dr td.num{text-align:right;font-variant-numeric:tabular-nums}
 .vz table.dr td.m{color:var(--color-fg-muted);white-space:nowrap}
 .vz table.dr td.b{width:26%;min-width:120px}
 .vz .bc{display:flex;align-items:center;gap:8px}
@@ -117,19 +118,19 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
     </div>
   </header>
 
-  <div class="band"><h2>한국 특별관</h2><span>2024.01~2026.09 개봉 108편 전체 · 배수 = 특별관 ÷ 같은 영화 일반관</span></div>
+  <div class="band"><h2>한국 특별관</h2><span>KOBIS 2024.1~2026.9 개봉 108편 · 특별관 지수 = 같은 영화 특별관 ÷ 일반관 좌석판매율</span><div class="fgrp band-f"><span class="seg-lab">개봉 연도</span><div class="seg" role="group" aria-label="개봉 연도" data-draw="kyr-seg"></div></div></div>
   <div class="grid">
     <div class="card w4 kpi" data-draw="kpi" data-k="all" data-source="kr_films"></div>
     <div class="card w4 kpi" data-draw="kpi" data-k="4D" data-source="kr_format"></div>
     <div class="card w4 kpi" data-draw="kpi" data-k="ScreenX" data-source="kr_format"></div>
 
     <div class="card w7">
-      <div class="ch"><h3>장르군별 배수</h3><span class="unit">중앙값 · 막대를 누르면 작품 목록</span></div>
+      <div class="ch"><h3>KOBIS 장르별 특별관 지수 · <span data-draw="kyr-name">—</span></h3><span class="unit">중앙값 · 3편 이상 · 막대를 누르면 작품 목록</span></div>
       <div class="lg" data-draw="lg-fmt2"></div>
-      <div data-draw="buckets" data-source="kr_buckets"></div>
+      <div data-draw="kgenre" data-source="kr_genre_year"></div>
     </div>
     <div class="card w5">
-      <div class="ch"><h3><span data-draw="fmt-name">—</span> 배수 상위 12편</h3><span class="unit">배</span></div>
+      <div class="ch"><h3><span data-draw="fmt-name">—</span> 지수 상위 12편 · <span data-draw="kyr-name">—</span></h3><span class="unit">배</span></div>
       <div class="lg" data-draw="lg-origin"></div>
       <div data-draw="top" data-source="kr_films"></div>
     </div>
@@ -138,21 +139,25 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
     </div>
   </div>
 
-  <div class="band"><h2>글로벌 박스오피스</h2><span>흥행 상위작 매출 비중</span><div class="fgrp band-f"><span class="seg-lab">연도</span><div class="seg" role="group" aria-label="연도" data-draw="yr-seg"></div></div></div>
+  <div class="band"><h2>글로벌 박스오피스</h2><span>Box Office Mojo · 2024~2026 (2026년은 9월 개봉작까지)</span><div class="fgrp band-f"><span class="seg-lab">연도</span><div class="seg" role="group" aria-label="연도" data-draw="yr-seg"></div></div></div>
   <div class="grid">
     <div class="card w6">
-      <div class="ch"><h3>장르별 비중 추이</h3><span class="unit">글로벌 Top50 매출 · 점선 = 2026년(11월 초까지)</span></div>
+      <div class="ch"><h3>전 세계 흥행 상위 50편, 장르별 매출 비중</h3><span class="unit">2024~2026 · 점선 = 2026년(9월까지 개봉작)</span></div>
       <div class="lg" data-draw="lg-genre"></div>
       <div data-draw="gline" data-source="global_share"></div>
     </div>
     <div class="card w6">
-      <div class="ch"><h3>시장별 4D 적합 장르 비중 · <span data-draw="yr-name">—</span></h3><span class="unit">시장 Top20 매출</span></div>
-      <div class="lg" data-draw="lg-fit"></div>
-      <div data-draw="mstack" data-source="market_year"></div>
+      <div class="ch"><h3>나라별 흥행 장르 구성 · <span data-draw="yr-name">—</span></h3><span class="unit">흥행 상위 20편 매출 중 · 특별관 많은 순</span></div>
+      <div class="lg" data-draw="lg-mg"></div>
+      <div data-draw="mgenre" data-source="market_genre_year"></div>
+    </div>
+    <div class="card">
+      <div class="ch"><h3>나라별 흥행 장르 표 · <span data-draw="yr-name">—</span></h3><span class="unit">흥행 상위 20편 매출 중 비중 (인도는 15편)</span></div>
+      <div class="dr-wrap"><table class="dr" id="mtable" data-source="market_genre_year"><thead><tr><th>나라</th><th class="num">일본 애니</th><th class="num">할리우드 액션·히어로</th><th class="num">할리우드 애니</th><th class="num">자국 액션·애니</th><th>흥행 1위 장르</th></tr></thead><tbody data-draw="mtable"></tbody></table></div>
     </div>
   </div>
 
-  <p class="foot">출처: KOBIS 영화관 입장권 통합전산망(2026-11-07 조회), Box Office Mojo, 마오옌, TFAI, Ormax, Cinepoint · 2026년은 11월 초까지 · 4D 적합 = 한국 4D 배수 1.2배 이상 장르군 · 참고: IMAX 0.87배</p>
+  <p class="foot">출처: KOBIS 영화관 입장권 통합전산망(2026-11-07 조회), Box Office Mojo, 마오옌, TFAI, Ormax · 장르는 KOBIS 분류(여러 개면 각각 포함) · 북미 = 미국·캐나다 · 참고: IMAX 0.87배 · 나라별 장르: 2026년은 9월까지 개봉작</p>
 </div>
 
 <p class="site-foot">분석·제작: 김지민 (CJ 4DPLEX 사전과제) · 코드 작성과 대시보드 제작에 AI(Claude) 활용</p>
@@ -163,7 +168,7 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
 (() => {
   const FIT = 1.2;
   const rowsOf = (id) => { const d = dash.data(id); return d.status === 'ok' ? d.data : null; };
-  const P = () => { const p = dash.params(); return {year: p.year || '2026', fmt: p.fmt === 'sx' ? 'sx' : 'd4'}; };
+  const P = () => { const p = dash.params(); return {year: p.year || '평균', kyear: p.kyear || '전체', fmt: p.fmt === 'sx' ? 'sx' : 'd4'}; };
   const FMT = {d4: '4D', sx: 'ScreenX', imax: 'IMAX'};
   const FKEY = {'4D': 'd4', ScreenX: 'sx', IMAX: 'imax'};
   const col = () => ({d4: dash.colors[0], sx: dash.colors[1], imax: dash.colors[2], muted: 'var(--cds-chart-muted)'});
@@ -220,10 +225,12 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
       el.appendChild(b);
     });
   }
-  dash.draw('yr-seg', (el) => segment(el, [['2024', '2024'], ['2025', '2025'], ['2026', '2026']], 'year', P().year));
+  dash.draw('yr-seg', (el) => segment(el, [['평균', '3년 평균'], ['2024', '2024'], ['2025', '2025'], ['2026', '2026']], 'year', P().year));
+  dash.draw('kyr-seg', (el) => segment(el, [['전체', '3년 전체'], ['2024', '2024'], ['2025', '2025'], ['2026', '2026']], 'kyear', P().kyear));
+  dash.draw('kyr-name', (el) => { el.textContent = P().kyear === '전체' ? '2024~2026 개봉' : P().kyear + '년 개봉'; });
   dash.draw('fmt-seg', (el) => segment(el, [['d4', '4D'], ['sx', 'ScreenX']], 'fmt', P().fmt));
   dash.draw('fmt-name', (el) => { el.textContent = FMT[P().fmt]; });
-  dash.draw('yr-name', (el) => { el.textContent = P().year + '년' + (P().year === '2026' ? '(11월 초까지)' : ''); });
+  dash.draw('yr-name', (el) => { el.textContent = P().year === '평균' ? '2024~2026 평균' : P().year + '년' + (P().year === '2026' ? '(9월 개봉작까지)' : ''); });
 
   // ---------- 범례 ----------
   const legend = (el, items) => {
@@ -237,7 +244,6 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
     const b = rowsOf('kr_buckets'); if (!b) return [];
     return b.filter((r) => +r.ratio_4d >= FIT).sort((a, c) => c.ratio_4d - a.ratio_4d).map((r) => r.bucket);
   };
-  dash.draw('lg-fit', (el) => legend(el, fitBuckets().map((b, i) => [fitCol(i), b])));
 
   // ---------- KPI ----------
   dash.draw('kpi', (el) => {
@@ -254,59 +260,62 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
     }
     const r = (rowsOf('kr_format') || []).find((x) => x.format === k); if (!r) return;
     const c = col()[FKEY[k]];
-    const head = mk('k'); const dot = document.createElement('i'); dot.style.background = c; head.append(dot, document.createTextNode(k + ' 배수 중앙값'));
+    const head = mk('k'); const dot = document.createElement('i'); dot.style.background = c; head.append(dot, document.createTextNode(k + ' 지수 중앙값'));
     const v = mk('v', r2(+r.median_ratio)); const sm = document.createElement('small'); sm.textContent = '배'; v.appendChild(sm);
-    const s = mk('s', `일반관보다 잘 찬 영화 ${p0(+r.share_above_1)} · ${r.films}편`);
+    const s = mk('s', `일반관 대비 좌석판매율 우위 작품 ${p0(+r.share_above_1)} · ${r.films}편`);
     const bar = mk('bar1'); const b = document.createElement('b'); b.style.width = (+r.share_above_1 * 100) + '%'; b.style.background = c; bar.appendChild(b);
     el.append(head, v, s, bar);
   });
 
-  // ---------- 장르군별 배수 ----------
-  dash.draw('buckets', (el) => {
-    const b = rowsOf('kr_buckets'); if (!b) return;
-    const rows = [...b].sort((a, c) => c.ratio_4d - a.ratio_4d);
-    const sel = dash.params().bucket || null;
-    const w = W(el), bh = 15, gap = 4, grp = bh * 2 + gap + 26, labH = 18, top = 4, h = top + rows.length * grp + 20;
-    const svg = svgOf(el, w, h, '장르군별 4D·ScreenX 점유율 배수');
-    const x = d3.scaleLinear().domain([0, Math.max(2.2, d3.max(rows, (r) => Math.max(+r.ratio_4d, +r.ratio_screenx)) * 1.1)]).range([0, w - 44]);
+  // ---------- KOBIS 장르별 특별관 지수 ----------
+  const gyear = (r) => P().kyear === '전체' || r.open.startsWith(P().kyear);
+  const hasGenre = (r, g) => r.genre_kobis.split(',').map((x) => x.trim()).includes(g);
+  dash.draw('kgenre', (el) => {
+    const b = rowsOf('kr_genre_year'); if (!b) return;
+    const rows = b.filter((r) => r.year === P().kyear && +r.d4_n >= 3).sort((a, c) => c.d4_median - a.d4_median);
+    if (!rows.length) return empty(el, '데이터 없음');
+    const sel = dash.params().kgenre || null;
+    const w = W(el), bh = 13, gap = 3, grp = bh * 2 + gap + 24, labH = 17, top = 4, h = top + rows.length * grp + 20;
+    const svg = svgOf(el, w, h, 'KOBIS 장르별 4D·ScreenX 특별관 지수');
+    const x = d3.scaleLinear().domain([0, Math.max(2.2, d3.max(rows, (r) => Math.max(+r.d4_median, +(r.sx_median || 0))) * 1.1)]).range([0, w - 44]);
     const T = tip(el);
     const pick = (name) => {
-      dash.setParams({bucket: sel === name ? null : name});
+      dash.setParams({kgenre: sel === name ? null : name});
       if (sel !== name) requestAnimationFrame(() => requestAnimationFrame(() => {
         const c = document.getElementById('drill-card'); if (c) c.scrollIntoView({behavior: 'smooth', block: 'nearest'});
       }));
     };
     rows.forEach((r, i) => {
       const y0 = top + i * grp;
-      const on = !sel || sel === r.bucket;
-      const g = svg.append('g').style('opacity', on ? 1 : 0.32);
-      if (sel === r.bucket) g.append('rect').attr('x', -8).attr('y', y0 - 4).attr('width', w + 8).attr('height', grp - 6).attr('rx', 10).attr('fill', 'var(--color-bg)');
-      fg(g.append('text').attr('x', 0).attr('y', y0 + 11).attr('font-size', 13).style('font-weight', 600).text(r.bucket + (sel === r.bucket ? '  ▾' : '')));
-      [['d4', +r.ratio_4d], ['sx', +r.ratio_screenx]].forEach(([k, v], j) => {
+      const g = svg.append('g').style('opacity', !sel || sel === r.genre ? 1 : 0.32);
+      if (sel === r.genre) g.append('rect').attr('x', -8).attr('y', y0 - 4).attr('width', w + 8).attr('height', grp - 6).attr('rx', 10).attr('fill', 'var(--color-bg)');
+      fg(g.append('text').attr('x', 0).attr('y', y0 + 11).attr('font-size', 13).style('font-weight', 600).text(`${r.genre}  ${r.d4_n}편` + (sel === r.genre ? '  ▾' : '')));
+      [['d4', r.d4_median], ['sx', r.sx_median]].forEach(([k, v], j) => {
+        if (v === '' || v == null) return;
+        v = +v;
         const y = y0 + labH + j * (bh + gap);
-        g.append('rect').attr('x', 0).attr('y', y).attr('width', Math.max(1, x(v))).attr('height', bh).attr('rx', 3).attr('fill', col()[k])
-          .attr('fill-opacity', v >= 1 ? 1 : 0.45);
+        g.append('rect').attr('x', 0).attr('y', y).attr('width', Math.max(1, x(v))).attr('height', bh).attr('rx', 3).attr('fill', col()[k]).attr('fill-opacity', v >= 1 ? 1 : 0.45);
         fg(g.append('text').attr('x', x(v) + 5).attr('y', y + bh - 2).attr('font-size', 11).style('font-weight', 700).style('font-variant-numeric', 'tabular-nums').text(r2(v)));
       });
       svg.append('rect').attr('class', 'bk-hit').attr('x', -8).attr('y', y0 - 4).attr('width', w + 8).attr('height', grp - 6).attr('fill', 'transparent')
-        .attr('tabindex', 0).attr('role', 'button').attr('aria-pressed', String(sel === r.bucket)).attr('aria-label', `${r.bucket} 작품 목록 보기`)
-        .on('pointermove', (ev) => T.show(ev, r.bucket, [[col().d4, `4D ${r2(+r.ratio_4d)}배`], [col().sx, `ScreenX ${r2(+r.ratio_screenx)}배`], [null, '눌러서 작품 보기']]))
+        .attr('tabindex', 0).attr('role', 'button').attr('aria-pressed', String(sel === r.genre)).attr('aria-label', `${r.genre} 작품 목록 보기`)
+        .on('pointermove', (ev) => T.show(ev, r.genre, [[col().d4, `4D ${r2(+r.d4_median)} (${r.d4_n}편)`], [col().sx, r.sx_median === '' ? 'ScreenX 없음' : `ScreenX ${r2(+r.sx_median)} (${r.sx_n}편)`], [null, '눌러서 작품 보기']]))
         .on('pointerleave', T.hide)
-        .on('click', () => { T.hide(); pick(r.bucket); })
-        .on('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); pick(r.bucket); } });
+        .on('click', () => { T.hide(); pick(r.genre); })
+        .on('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); pick(r.genre); } });
     });
     refLine(svg, x(1), top + 12, x(1), h - 16).style('pointer-events', 'none');
-    mu(svg.append('text').attr('x', x(1)).attr('y', h - 2).attr('text-anchor', 'middle').attr('font-size', 11).text('1배'));
+    mu(svg.append('text').attr('x', x(1)).attr('y', h - 2).attr('text-anchor', 'middle').attr('font-size', 11).text('1 = 일반관만큼'));
   });
 
   // ---------- 장르 작품 목록 (드릴다운) ----------
   dash.draw('drill', (el) => {
     const card = el.closest('.card');
-    const sel = dash.params().bucket;
-    const f = rowsOf('kr_films'), bk = rowsOf('kr_buckets');
+    const sel = dash.params().kgenre;
+    const f = rowsOf('kr_films'), bk = rowsOf('kr_genre_year');
     if (!sel || !f || !bk) { card.style.display = 'none'; el.replaceChildren(); return; }
-    const info = bk.find((r) => r.bucket === sel);
-    const films = f.filter((r) => r.bucket === sel);
+    const info = bk.find((r) => r.genre === sel && r.year === P().kyear);
+    const films = f.filter((r) => hasGenre(r, sel) && gyear(r));
     if (!info || !films.length) { card.style.display = 'none'; el.replaceChildren(); return; }
     card.style.display = '';
     const k = P().fmt, other = k === 'd4' ? 'sx' : 'd4';
@@ -314,12 +323,12 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
     films.sort((a, c) => (val(c, k) ?? -1) - (val(a, k) ?? -1));
     el.replaceChildren();
     const head = document.createElement('div'); head.className = 'dr-head';
-    const bb = document.createElement('b'); bb.textContent = sel;
+    const bb = document.createElement('b'); bb.textContent = sel + ' · ' + (P().kyear === '전체' ? '3년 전체' : P().kyear + '년 개봉');
     const sp = document.createElement('span');
     const n4 = films.filter((r) => val(r, 'd4') != null).length, nx = films.filter((r) => val(r, 'sx') != null).length;
-    sp.textContent = `4D ${r2(+info.ratio_4d)}배 (${n4}편) · ScreenX ${r2(+info.ratio_screenx)}배 (${nx}편)`;
+    sp.textContent = `4D ${r2(+info.d4_median)} (${n4}편) · ScreenX ${info.sx_median === '' ? '–' : r2(+info.sx_median)} (${nx}편)`;
     const x = document.createElement('button'); x.type = 'button'; x.className = 'dr-x'; x.textContent = '닫기 ✕';
-    x.addEventListener('click', () => dash.setParams({bucket: null}));
+    x.addEventListener('click', () => dash.setParams({kgenre: null}));
     head.append(bb, sp, x); el.appendChild(head);
     const max = Math.max(3, d3.max(films, (r) => Math.max(val(r, 'd4') ?? 0, val(r, 'sx') ?? 0)));
     const wrap = document.createElement('div'); wrap.className = 'dr-wrap';
@@ -355,7 +364,8 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
   dash.draw('top', (el) => {
     const f = rowsOf('kr_films'); if (!f) return;
     const k = P().fmt;
-    const rows = f.filter((r) => r[k + '_ratio'] !== '').map((r) => ({r, v: +r[k + '_ratio']})).sort((a, b) => b.v - a.v).slice(0, 12);
+    const rows = f.filter((r) => r[k + '_ratio'] !== '' && gyear(r)).map((r) => ({r, v: +r[k + '_ratio']})).sort((a, b) => b.v - a.v).slice(0, 12);
+    if (!rows.length) return empty(el, '데이터 없음');
     const w = W(el), bh = 24, gap = 6, h = rows.length * (bh + gap);
     const svg = svgOf(el, w, h, FMT[k] + ' 배수 상위 영화');
     const labW = Math.min(150, w * 0.42);
@@ -375,8 +385,9 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
   const gcol = (cat) => HL[cat] ? HL[cat]() : 'var(--cds-chart-muted)';
   // ---------- 글로벌 추이 ----------
   dash.draw('gline', (el) => {
-    const g = rowsOf('global_share'); if (!g) return;
-    const yrs = [...new Set(g.map((r) => r.year))].sort();
+    let g = rowsOf('global_share'); if (!g) return;
+    const yrs = [...new Set(g.map((r) => r.year))].filter((y) => y >= '2024').sort();
+    g = g.filter((r) => r.year >= '2024');
     const series = d3.groups(g, (r) => r.category).map(([c, a]) => ({c, pts: yrs.map((y) => { const r = a.find((x) => x.year === y); return {y, v: r ? +r.share : 0}; })}));
     series.sort((a, b) => (HL[a.c] ? 1 : 0) - (HL[b.c] ? 1 : 0));
     const w = W(el), h = 330, padL = 40, padR = 96, padT = 10, padB = 26;
@@ -388,7 +399,7 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
     svg.append('g').selectAll('text').data(yt).join('text').attr('x', padL - 6).attr('y', (d) => y(d) + 4).attr('text-anchor', 'end').attr('font-size', 11).text(p0).call(mu);
     svg.append('g').selectAll('text').data(yrs).join('text').attr('x', x).attr('y', h - 6).attr('text-anchor', 'middle').attr('font-size', 11)
       .style('font-weight', (d) => d === P().year ? 700 : 400).text((d) => d === '2026' ? '2026*' : d).call((s) => s.style('fill', (d) => d === P().year ? 'var(--color-fg)' : 'var(--color-fg-muted)'));
-    svg.append('line').attr('x1', x(P().year)).attr('x2', x(P().year)).attr('y1', padT).attr('y2', h - padB).attr('stroke', 'var(--color-border-line)').attr('stroke-width', 8).attr('stroke-opacity', 0.6).lower();
+    if (yrs.includes(P().year)) svg.append('line').attr('x1', x(P().year)).attr('x2', x(P().year)).attr('y1', padT).attr('y2', h - padB).attr('stroke', 'var(--color-border-line)').attr('stroke-width', 8).attr('stroke-opacity', 0.6).lower();
     const T = tip(el);
     const ends = [];
     series.forEach((s) => {
@@ -398,7 +409,7 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
       svg.append('path').datum(full).attr('fill', 'none').attr('stroke', c).attr('stroke-width', hl ? 3 : 1.5).attr('stroke-opacity', hl ? 1 : 0.7).attr('d', ln);
       svg.append('path').datum(part).attr('fill', 'none').attr('stroke', c).attr('stroke-width', hl ? 3 : 1.5).attr('stroke-opacity', hl ? 1 : 0.7).attr('stroke-dasharray', '5 4').attr('d', ln);
       svg.append('g').selectAll('circle').data(s.pts).join('circle').attr('cx', (p) => x(p.y)).attr('cy', (p) => y(p.v)).attr('r', hl ? 4 : 3).attr('fill', c)
-        .on('pointermove', (ev, p) => T.show(ev, `${s.c} · ${p.y}`, [[c, `비중 ${p1(p.v)}`], ...(p.y === '2026' ? [[null, '11월 초까지 집계']] : [])])).on('pointerleave', T.hide);
+        .on('pointermove', (ev, p) => T.show(ev, `${s.c} · ${p.y}`, [[c, `비중 ${p1(p.v)}`], ...(p.y === '2026' ? [[null, '9월까지 개봉작']] : [])])).on('pointerleave', T.hide);
       ends.push({c: s.c, col: hl ? c : 'var(--color-fg-muted)', y: y(s.pts[s.pts.length - 1].v), hl});
     });
     ends.sort((a, b) => a.y - b.y);
@@ -406,36 +417,85 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
     ends.forEach((e) => svg.append('text').attr('x', w - padR + 10).attr('y', e.y + 4).attr('font-size', 11).style('font-weight', e.hl ? 700 : 400).style('fill', e.col).text(e.c));
   });
 
-  // ---------- 시장별 4D 적합 장르 (누적) ----------
-  dash.draw('mstack', (el) => {
-    const m = rowsOf('market_year'); if (!m) return;
-    const fb = fitBuckets(); if (!fb.length) return;
-    const yr = P().year;
-    const cur = m.filter((r) => r.year === yr);
-    if (!cur.length) return empty(el, yr + '년 데이터 없음');
-    const mk = d3.groups(cur, (r) => r.market).map(([mkt, a]) => {
-      const seg = fb.map((b) => { const r = a.find((x) => x.bucket === b); return {b, v: r ? +r.share : 0}; });
-      return {mkt, seg, tot: d3.sum(seg, (s) => s.v)};
-    }).sort((a, b) => b.tot - a.tot);
-    const w = W(el), bh = 20, gap = 7, labW = 64, h = mk.length * (bh + gap) + 18;
-    const svg = svgOf(el, w, h, yr + '년 시장별 4D 적합 장르 비중');
-    const x = d3.scaleLinear().domain([0, Math.max(0.5, d3.max(mk, (d) => d.tot) * 1.12)]).nice().range([0, w - labW - 44]);
+
+  // ---------- 포지셔닝 ----------
+  const GCOL = {'확장 기회': () => dash.colors[1], '이미 자리 잡음': () => 'var(--cds-chart-muted)', '수요 작음': () => 'var(--color-border-line)'};
+  dash.draw('lg-group', (el) => legend(el, [[GCOL['확장 기회'](), '확장 기회'], [GCOL['이미 자리 잡음'](), '이미 자리 잡음'], [GCOL['수요 작음'](), '수요 작음']]));
+  dash.draw('pos', (el) => {
+    const m = rowsOf('market_supply'); if (!m) return;
+    const rows = m.filter((r) => r.fit_revenue_per_4dx_site_musd !== '').map((r) => ({...r, v: +r.fit_revenue_per_4dx_site_musd})).sort((a, b) => b.v - a.v);
+    const w = W(el), bh = 24, gap = 7, labW = 64, h = rows.length * (bh + gap) + 16;
+    const svg = svgOf(el, w, h, '4DX 지점 1곳당 4D 적합 장르 매출');
+    const x = d3.scaleLinear().domain([0, d3.max(rows, (r) => r.v) * 1.08]).nice().range([0, w - labW - 150]);
     x.ticks(4).filter((t) => t > 0).forEach((t) => {
+      svg.append('line').attr('x1', labW + x(t)).attr('x2', labW + x(t)).attr('y1', 0).attr('y2', h - 16).attr('stroke', 'var(--cds-chart-grid)');
+      mu(svg.append('text').attr('x', labW + x(t)).attr('y', h - 2).attr('text-anchor', 'middle').attr('font-size', 11).text(t));
+    });
+    const T = tip(el);
+    rows.forEach((r, i) => {
+      const y = i * (bh + gap), c = (GCOL[r.group] || GCOL['수요 작음'])();
+      fg(svg.append('text').attr('x', labW - 8).attr('y', y + bh / 2 + 4).attr('text-anchor', 'end').attr('font-size', 12).style('font-weight', 600).text(r.market));
+      svg.append('rect').attr('x', labW).attr('y', y).attr('width', Math.max(1, x(r.v))).attr('height', bh).attr('rx', 4).attr('fill', c)
+        .on('pointermove', (ev) => T.show(ev, `${r.market} · ${r.group}`, [[c, `지점당 ${d3.format('.1f')(r.v)}백만 달러`], [null, `4D 적합 장르 매출 ${d3.format(',')(+r.fit_revenue_musd_2025)}백만 달러 (${p0(+r.fit_share_2025)})`], [null, `4DX ${r.sites_4dx}곳 · SCREENX ${r.sites_screenx}곳`]]))
+        .on('pointerleave', T.hide);
+      fg(svg.append('text').attr('x', labW + x(r.v) + 6).attr('y', y + bh / 2 + 4).attr('font-size', 12).style('font-weight', 700).style('font-variant-numeric', 'tabular-nums').text(d3.format('.1f')(r.v)));
+      mu(svg.append('text').attr('x', labW + x(r.v) + 44).attr('y', y + bh / 2 + 4).attr('font-size', 11).style('font-variant-numeric', 'tabular-nums').text(`4DX ${r.sites_4dx}곳`));
+    });
+  });
+  dash.draw('pot', (el) => {
+    const m = rowsOf('market_supply'); if (!m) return;
+    const rows = m.filter((r) => r.group === '큰 잠재 시장').sort((a, b) => b.local_action_anime_share_2025 - a.local_action_anime_share_2025);
+    el.replaceChildren();
+    rows.forEach((r) => {
+      const box = document.createElement('div'); box.style.cssText = 'padding:14px 0;border-bottom:1px solid var(--color-border-line)';
+      const top = document.createElement('div'); top.style.cssText = 'display:flex;justify-content:space-between;align-items:baseline;gap:8px';
+      const nm = document.createElement('b'); nm.style.fontSize = '18px'; nm.textContent = r.market;
+      const st = document.createElement('span'); st.style.cssText = 'font-size:12px;color:var(--color-fg-muted);font-variant-numeric:tabular-nums'; st.textContent = `4DX ${r.sites_4dx}곳 · SCREENX ${r.sites_screenx}곳`;
+      top.append(nm, st);
+      const v = document.createElement('div'); v.style.cssText = 'font-size:32px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin:6px 0'; v.textContent = p0(+r.local_action_anime_share_2025);
+      const bar = document.createElement('div'); bar.className = 'bar1'; const b = document.createElement('b'); b.style.width = (+r.local_action_anime_share_2025 * 100) + '%'; b.style.background = 'var(--cds-chart-muted)'; bar.appendChild(b);
+      const note = document.createElement('div'); note.style.cssText = 'font-size:12px;color:var(--color-fg-muted);margin-top:8px'; note.textContent = `할리우드·일본 4D 적합 장르는 ${p0(+r.fit_share_2025)}`;
+      box.append(top, v, bar, note); el.appendChild(box);
+    });
+  });
+  // ---------- 나라별 흥행 장르 구성 ----------
+  const MG = [['japan_anime', '일본 애니', () => dash.colors[0]], ['hollywood_action_hero', '할리우드 액션·히어로', () => dash.colors[3]], ['hollywood_animation', '할리우드 애니', () => dash.colors[6]], ['local_action_anime', '자국 액션·애니', () => 'var(--cds-chart-muted)']];
+  dash.draw('lg-mg', (el) => legend(el, MG.map(([, l, c]) => [c(), l])));
+  const mgRows = () => { const m = rowsOf('market_genre_year'); return m ? m.filter((r) => r.year === P().year).sort((a, b) => a.order - b.order) : null; };
+  dash.draw('mgenre', (el) => {
+    const rows = mgRows(); if (!rows) return; if (!rows.length) return empty(el, '데이터 없음');
+    const w = W(el), bh = 20, gap = 7, labW = 72, h = rows.length * (bh + gap) + 18;
+    const svg = svgOf(el, w, h, '나라별 흥행 장르 구성');
+    const x = d3.scaleLinear().domain([0, 1]).range([0, w - labW - 44]);
+    [0.25, 0.5, 0.75, 1].forEach((t) => {
       svg.append('line').attr('x1', labW + x(t)).attr('x2', labW + x(t)).attr('y1', 0).attr('y2', h - 18).attr('stroke', 'var(--cds-chart-grid)');
       mu(svg.append('text').attr('x', labW + x(t)).attr('y', h - 3).attr('text-anchor', 'middle').attr('font-size', 11).text(p0(t)));
     });
     const T = tip(el);
-    mk.forEach((d, i) => {
+    rows.forEach((d, i) => {
       const y = i * (bh + gap);
-      fg(svg.append('text').attr('x', labW - 8).attr('y', y + bh / 2 + 4).attr('text-anchor', 'end').attr('font-size', 12).style('font-weight', 600).text(d.mkt));
+      fg(svg.append('text').attr('x', labW - 8).attr('y', y + bh / 2 + 4).attr('text-anchor', 'end').attr('font-size', 12).style('font-weight', 600).text(d.market));
       let acc = 0;
-      d.seg.forEach((s, j) => {
-        if (s.v > 0) svg.append('rect').attr('x', labW + x(acc)).attr('y', y).attr('width', Math.max(0.5, x(s.v) - 1)).attr('height', bh).attr('fill', fitCol(j))
-          .attr('rx', 2)
-          .on('pointermove', (ev) => T.show(ev, `${d.mkt} · ${yr}`, [...d.seg.map((q, jj) => [fitCol(jj), `${q.b} ${p0(q.v)}`]), [null, `합계 ${p0(d.tot)}`]])).on('pointerleave', T.hide);
-        acc += s.v;
+      MG.forEach(([k, l, c]) => {
+        const v = +d[k];
+        if (v > 0) svg.append('rect').attr('x', labW + x(acc)).attr('y', y).attr('width', Math.max(0.5, x(v) - 1)).attr('height', bh).attr('rx', 2).attr('fill', c())
+          .on('pointermove', (ev) => T.show(ev, `${d.market} · ${P().year === '평균' ? '3년 평균' : P().year}`, [...MG.map(([kk, ll, cc]) => [cc(), `${ll} ${p0(+d[kk])}`]), [null, `1위 ${d.top_genre} ${p0(+d.top_share)}`]])).on('pointerleave', T.hide);
+        acc += v;
       });
-      fg(svg.append('text').attr('x', labW + x(acc) + 5).attr('y', y + bh / 2 + 4).attr('font-size', 12).style('font-weight', 700).style('font-variant-numeric', 'tabular-nums').text(p0(d.tot)));
+      fg(svg.append('text').attr('x', labW + x(acc) + 5).attr('y', y + bh / 2 + 4).attr('font-size', 12).style('font-weight', 700).style('font-variant-numeric', 'tabular-nums').text(p0(acc)));
+    });
+  });
+  dash.draw('mtable', (tb) => {
+    tb.replaceChildren();
+    const rows = mgRows(); if (!rows) return;
+    rows.forEach((d) => {
+      const tr = document.createElement('tr'); tr.dataset.key = encodeURIComponent(d.market);
+      const td = (txt, cls, strong) => { const e = document.createElement('td'); if (cls) e.className = cls; e.textContent = txt; if (strong) e.style.fontWeight = '700'; tr.appendChild(e); return e; };
+      td(d.market, 't');
+      const vals = MG.map(([k]) => +d[k]); const mx = Math.max(...vals);
+      MG.forEach(([k], i) => { const e = td(p0(+d[k]), 'num m', vals[i] === mx && mx > 0); if (vals[i] === mx && mx > 0) e.style.color = 'var(--color-fg)'; });
+      td(`${d.top_genre} ${p0(+d.top_share)}`, '');
+      tb.appendChild(tr);
     });
   });
 
