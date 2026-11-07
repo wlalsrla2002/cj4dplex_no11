@@ -1,0 +1,734 @@
+market,year,rank,title,title_local,origin,category,genre,share,source
+호주,2024,1,Deadpool & Wolverine,,미국,할리우드 액션·히어로,슈퍼히어로,0.1315,Box Office Mojo
+호주,2024,2,Inside Out 2,,미국,할리우드 애니,애니메이션,0.1128,Box Office Mojo
+호주,2024,3,Despicable Me 4,,미국,할리우드 애니,애니메이션,0.088,Box Office Mojo
+호주,2024,4,Moana 2,,미국,할리우드 애니,애니메이션,0.0741,Box Office Mojo
+호주,2024,5,Wicked,,미국,기타,음악·공연,0.0702,Box Office Mojo
+호주,2024,6,Dune: Part Two,,미국,할리우드 액션·히어로,액션·어드벤처,0.067,Box Office Mojo
+호주,2024,7,Kung Fu Panda 4,,미국,할리우드 애니,애니메이션,0.0452,Box Office Mojo
+호주,2024,8,Gladiator II,,미국,할리우드 액션·히어로,액션·어드벤처,0.0435,Box Office Mojo
+호주,2024,9,It Ends with Us,,미국,기타,드라마,0.0424,Box Office Mojo
+호주,2024,10,Godzilla X Kong: The New Empire,,미국,할리우드 액션·히어로,액션·어드벤처,0.0387,Box Office Mojo
+호주,2024,11,Anyone But You,,미국,기타,코미디,0.0368,Box Office Mojo
+호주,2024,12,Wonka,,미국,기타,가족 실사,0.0354,Box Office Mojo
+호주,2024,13,The Wild Robot,,미국,할리우드 애니,애니메이션,0.0291,Box Office Mojo
+호주,2024,14,Beetlejuice Beetlejuice,,미국,기타,공포,0.0282,Box Office Mojo
+호주,2024,15,Bad Boys: Ride or Die,,미국,할리우드 액션·히어로,액션·어드벤처,0.0281,Box Office Mojo
+호주,2024,16,The Fall Guy,,미국,할리우드 액션·히어로,액션·어드벤처,0.0274,Box Office Mojo
+호주,2024,17,Ghostbusters: Frozen Empire,,미국,할리우드 액션·히어로,액션·어드벤처,0.0261,Box Office Mojo
+호주,2024,18,Twisters,,미국,할리우드 액션·히어로,액션·어드벤처,0.0253,Box Office Mojo
+호주,2024,19,Venom: The Last Dance,,미국,할리우드 액션·히어로,슈퍼히어로,0.0251,Box Office Mojo
+호주,2024,20,Kingdom of the Planet of the Apes,,미국,할리우드 액션·히어로,액션·어드벤처,0.0249,Box Office Mojo
+호주,2025,1,A Minecraft Movie,,미국,기타,가족 실사,0.1216,Box Office Mojo
+호주,2025,2,Lilo & Stitch,,미국,할리우드 액션·히어로,액션·어드벤처,0.0725,Box Office Mojo
+호주,2025,3,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0693,Box Office Mojo
+호주,2025,4,Jurassic World: Rebirth,,미국,할리우드 액션·히어로,액션·어드벤처,0.068,Box Office Mojo
+호주,2025,5,F1: The Movie,,미국,기타,드라마,0.0662,Box Office Mojo
+호주,2025,6,How to Train Your Dragon,,미국,기타,가족 실사,0.0654,Box Office Mojo
+호주,2025,7,Wicked: For Good,,미국,기타,음악·공연,0.0636,Box Office Mojo
+호주,2025,8,Zootopia 2,,미국,할리우드 애니,애니메이션,0.0611,Box Office Mojo
+호주,2025,9,Superman,,미국,할리우드 액션·히어로,슈퍼히어로,0.0538,Box Office Mojo
+호주,2025,10,Big Hero 62025 Re-release,,미국,할리우드 애니,애니메이션,0.0464,Box Office Mojo
+호주,2025,11,The Fantastic Four: First Steps,,미국,할리우드 액션·히어로,슈퍼히어로,0.038,Box Office Mojo
+호주,2025,12,Paddington in Peru,,영국,기타,가족 실사,0.0349,Box Office Mojo
+호주,2025,13,Mufasa: The Lion King,,미국,할리우드 애니,애니메이션,0.0337,Box Office Mojo
+호주,2025,14,Bridget Jones: Mad About the Boy,,영국,기타,코미디,0.0326,Box Office Mojo
+호주,2025,15,The Conjuring: Last Rites,,미국,기타,공포,0.0312,Box Office Mojo
+호주,2025,16,The Bad Guys 2,,미국,할리우드 애니,애니메이션,0.0311,Box Office Mojo
+호주,2025,17,Thunderbolts*,,미국,할리우드 액션·히어로,슈퍼히어로,0.0306,Box Office Mojo
+호주,2025,18,Captain America: Brave New World,,미국,할리우드 액션·히어로,슈퍼히어로,0.0299,Box Office Mojo
+호주,2025,19,Moana 2,,미국,할리우드 애니,애니메이션,0.0252,Box Office Mojo
+호주,2025,20,Sinners,,미국,기타,공포,0.025,Box Office Mojo
+호주,2026,1,Spider-Man: Brand New Day,,미국,할리우드 액션·히어로,슈퍼히어로,0.1536,Box Office Mojo
+호주,2026,2,The Odyssey,,미국,할리우드 액션·히어로,액션·어드벤처,0.1191,Box Office Mojo
+호주,2026,3,Toy Story 5,,미국,할리우드 애니,애니메이션,0.0783,Box Office Mojo
+호주,2026,4,Michael,,미국,기타,음악·공연,0.0782,Box Office Mojo
+호주,2026,5,The Devil Wears Prada 2,,미국,기타,코미디,0.0714,Box Office Mojo
+호주,2026,6,Project Hail Mary,,미국,할리우드 액션·히어로,액션·어드벤처,0.0658,Box Office Mojo
+호주,2026,7,The Super Mario Galaxy Movie,,미국,할리우드 애니,애니메이션,0.0651,Box Office Mojo
+호주,2026,8,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0513,Box Office Mojo
+호주,2026,9,Obsession,,미국,기타,공포,0.0434,Box Office Mojo
+호주,2026,10,Minions & Monsters,,미국,할리우드 애니,애니메이션,0.0396,Box Office Mojo
+호주,2026,11,Wuthering Heights,,미국,기타,드라마,0.0352,Box Office Mojo
+호주,2026,12,The Housemaid,,미국,기타,스릴러·범죄,0.0323,Box Office Mojo
+호주,2026,13,Zootopia 2,,미국,할리우드 애니,애니메이션,0.0283,Box Office Mojo
+호주,2026,14,Moana,,미국,기타,가족 실사,0.0274,Box Office Mojo
+호주,2026,15,Star Wars: The Mandalorian and Grogu,,미국,할리우드 액션·히어로,액션·어드벤처,0.0251,Box Office Mojo
+호주,2026,16,Backrooms,,미국,기타,공포,0.0229,Box Office Mojo
+호주,2026,17,Resident Evil,,미국,기타,공포,0.0227,Box Office Mojo
+호주,2026,19,Anaconda,,미국,할리우드 액션·히어로,액션·어드벤처,0.0204,Box Office Mojo
+호주,2026,20,Song Sung Blue,,미국,기타,음악·공연,0.0199,Box Office Mojo
+중국,2024,1,热辣滚烫,,중국,기타,코미디,0.1307,Maoyan
+중국,2024,2,飞驰人生2,,중국,기타,코미디,0.1286,Maoyan
+중국,2024,3,抓娃娃,,중국,기타,코미디,0.1273,Maoyan
+중국,2024,4,第二十条,,중국,기타,드라마,0.0929,Maoyan
+중국,2024,5,熊出没·逆转时空,,중국,자국 액션·애니,애니메이션,0.0759,Maoyan
+중국,2024,6,默杀,,중국,기타,스릴러·범죄,0.0517,Maoyan
+중국,2024,7,志愿军：存亡之战,,중국,자국 액션·애니,액션·어드벤처,0.0462,Maoyan
+중국,2024,8,年会不能停！,,중국,기타,코미디,0.0406,Maoyan
+중국,2024,9,Godzilla x Kong: The New Empire,哥斯拉大战金刚2：帝国崛起,미국,할리우드 액션·히어로,액션·어드벤처,0.0366,Maoyan
+중국,2024,10,The Boy and the Heron,你想活出怎样的人生,일본,일본 애니,애니메이션,0.0303,Maoyan
+중국,2024,11,Alien: Romulus,异形：夺命舰,미국,기타,공포,0.0301,Maoyan
+중국,2024,12,末路狂花钱,,중국,기타,코미디,0.0299,Maoyan
+중국,2024,13,好东西,,중국,기타,코미디,0.0273,Maoyan
+중국,2024,14,九龙城寨之围城,,홍콩·중국,자국 액션·애니,액션·어드벤처,0.0262,Maoyan
+중국,2024,15,Venom: The Last Dance,毒液：最后一舞,미국,할리우드 액션·히어로,슈퍼히어로,0.0262,Maoyan
+중국,2024,16,周处除三害,,중국,자국 액션·애니,액션·어드벤처,0.0255,Maoyan
+중국,2024,17,维和防暴队,,중국,자국 액션·애니,액션·어드벤처,0.0196,Maoyan
+중국,2024,18,云边有个小卖部,,중국,기타,드라마,0.0191,Maoyan
+중국,2024,19,重生,,중국,기타,스릴러·범죄,0.0178,Maoyan
+중국,2024,20,浴火之路,,중국,기타,스릴러·범죄,0.0177,Maoyan
+중국,2025,1,哪吒之魔童闹海,,중국,자국 액션·애니,애니메이션,0.3894,Maoyan
+중국,2025,2,Zootopia 2,疯狂动物城2,미국,할리우드 애니,애니메이션,0.1014,Maoyan
+중국,2025,3,唐探1900,,중국,기타,코미디,0.0911,Maoyan
+중국,2025,4,南京照相馆,,중국,기타,드라마,0.0761,Maoyan
+중국,2025,5,731,,중국,기타,드라마,0.049,Maoyan
+중국,2025,6,浪浪山小妖怪,,중국,자국 액션·애니,애니메이션,0.0433,Maoyan
+중국,2025,7,捕风追影,,중국,자국 액션·애니,액션·어드벤처,0.0319,Maoyan
+중국,2025,8,封神第二部：战火西岐,,중국,자국 액션·애니,액션·어드벤처,0.0312,Maoyan
+중국,2025,9,熊出没·重启未来,,중국,자국 액션·애니,애니메이션,0.0207,Maoyan
+중국,2025,10,Avatar: Fire and Ash,阿凡达3,미국,할리우드 액션·히어로,액션·어드벤처,0.0195,Maoyan
+중국,2025,11,长安的荔枝,,중국,기타,드라마,0.0174,Maoyan
+중국,2025,12,射雕英雄传：侠之大者,,중국,자국 액션·애니,액션·어드벤처,0.0174,Maoyan
+중국,2025,13,Demon Slayer: Infinity Castle,鬼灭之刃：无限城篇 第一章 猗窝座再袭,일본,일본 애니,애니메이션,0.0171,Maoyan
+중국,2025,14,志愿军：浴血和平,,중국,자국 액션·애니,액션·어드벤처,0.0162,Maoyan
+중국,2025,15,误杀3,,중국,기타,스릴러·범죄,0.016,Maoyan
+중국,2025,16,Jurassic World: Rebirth,侏罗纪世界：重生,미국,할리우드 액션·히어로,액션·어드벤처,0.0143,Maoyan
+중국,2025,17,罗小黑战记2,,중국,자국 액션·애니,애니메이션,0.0135,Maoyan
+중국,2025,18,Mission: Impossible - The Final Reckoning,碟中谍8：最终清算,미국,할리우드 액션·히어로,액션·어드벤처,0.0117,Maoyan
+중국,2025,19,浪浪人生,,중국,기타,미분류,0.0115,Maoyan
+중국,2025,20,F1: The Movie,F1：狂飙飞车,미국,기타,드라마,0.0113,Maoyan
+중국,2026,1,飞驰人生3,,중국,기타,코미디,0.1817,Maoyan
+중국,2026,2,欢迎来龙餐馆,,중국,기타,미분류,0.0984,Maoyan
+중국,2026,3,功夫女足,,중국,기타,코미디,0.0964,Maoyan
+중국,2026,4,八仙！,,중국,기타,미분류,0.0846,Maoyan
+중국,2026,5,给阿嬷的情书,,중국,기타,미분류,0.0824,Maoyan
+중국,2026,6,Spider-Man: Brand New Day,蜘蛛侠：崭新之日,미국,할리우드 액션·히어로,슈퍼히어로,0.0652,Maoyan
+중국,2026,7,镖人：风起大漠,,중국,자국 액션·애니,액션·어드벤처,0.0595,Maoyan
+중국,2026,8,惊蛰无声,,중국,기타,미분류,0.0561,Maoyan
+중국,2026,9,熊出没·年年有熊,,중국,자국 액션·애니,애니메이션,0.0439,Maoyan
+중국,2026,10,The Odyssey,奥德赛,미국,할리우드 액션·히어로,액션·어드벤처,0.0321,Maoyan
+중국,2026,11,神探之痕迹,,중국,기타,미분류,0.0277,Maoyan
+중국,2026,12,空枪,,중국,기타,미분류,0.0274,Maoyan
+중국,2026,13,消失的人,,중국,기타,미분류,0.0236,Maoyan
+중국,2026,14,Zootopia 2,疯狂动物城2,미국,할리우드 애니,애니메이션,0.0236,Maoyan
+중국,2026,15,Resident Evil,生化危机：爆发夜,미국,기타,공포,0.0201,Maoyan
+중국,2026,16,匿杀,,중국,기타,미분류,0.0179,Maoyan
+중국,2026,17,Avatar: Fire and Ash,阿凡达3,미국,할리우드 액션·히어로,액션·어드벤처,0.0176,Maoyan
+중국,2026,18,什么意思夫妇,,중국,기타,미분류,0.0165,Maoyan
+중국,2026,19,Minions & Monsters,小黄人与大怪兽,미국,할리우드 애니,애니메이션,0.0129,Maoyan
+중국,2026,20,四渡,,중국,기타,미분류,0.0124,Maoyan
+스페인,2024,1,Inside Out 2,,미국,할리우드 애니,애니메이션,0.1865,Box Office Mojo
+스페인,2024,2,Deadpool & Wolverine,,미국,할리우드 액션·히어로,슈퍼히어로,0.0907,Box Office Mojo
+스페인,2024,3,Gladiator II,,미국,할리우드 액션·히어로,액션·어드벤처,0.0776,Box Office Mojo
+스페인,2024,4,Despicable Me 4,,미국,할리우드 애니,애니메이션,0.0766,Box Office Mojo
+스페인,2024,5,Moana 2,,미국,할리우드 애니,애니메이션,0.0641,Box Office Mojo
+스페인,2024,6,Dune: Part Two,,미국,할리우드 액션·히어로,액션·어드벤처,0.0566,Box Office Mojo
+스페인,2024,7,Father There is Only One 4,,스페인,기타,가족 실사,0.0493,Box Office Mojo
+스페인,2024,8,The Wild Robot,,미국,할리우드 애니,애니메이션,0.0406,Box Office Mojo
+스페인,2024,9,Kung Fu Panda 4,,미국,할리우드 애니,애니메이션,0.0396,Box Office Mojo
+스페인,2024,10,It Ends with Us,,미국,기타,드라마,0.0359,Box Office Mojo
+스페인,2024,11,Beetlejuice Beetlejuice,,미국,기타,공포,0.0345,Box Office Mojo
+스페인,2024,12,Mufasa: The Lion King,,미국,할리우드 애니,애니메이션,0.0336,Box Office Mojo
+스페인,2024,13,Undercover,,스페인,기타,스릴러·범죄,0.0321,Box Office Mojo
+스페인,2024,14,Venom: The Last Dance,,미국,할리우드 액션·히어로,슈퍼히어로,0.0319,Box Office Mojo
+스페인,2024,15,Kingdom of the Planet of the Apes,,미국,할리우드 액션·히어로,액션·어드벤처,0.0296,Box Office Mojo
+스페인,2024,16,Bad Boys: Ride or Die,,미국,할리우드 액션·히어로,액션·어드벤처,0.0266,Box Office Mojo
+스페인,2024,17,Anyone But You,,미국,기타,코미디,0.0259,Box Office Mojo
+스페인,2024,18,Wicked,,미국,기타,음악·공연,0.0244,Box Office Mojo
+스페인,2024,19,Alien: Romulus,,미국,기타,공포,0.0233,Box Office Mojo
+스페인,2024,20,I Hate Summer,,스페인,자국 액션·애니,액션·어드벤처,0.0206,Box Office Mojo
+스페인,2025,1,Lilo & Stitch,,미국,할리우드 액션·히어로,액션·어드벤처,0.11,Box Office Mojo
+스페인,2025,2,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0876,Box Office Mojo
+스페인,2025,3,Jurassic World: Rebirth,,미국,할리우드 액션·히어로,액션·어드벤처,0.0771,Box Office Mojo
+스페인,2025,4,A Minecraft Movie,,미국,기타,가족 실사,0.0731,Box Office Mojo
+스페인,2025,5,Zootopia 2,,미국,할리우드 애니,애니메이션,0.068,Box Office Mojo
+스페인,2025,6,How to Train Your Dragon,,미국,기타,가족 실사,0.0631,Box Office Mojo
+스페인,2025,7,The Conjuring: Last Rites,,미국,기타,공포,0.0615,Box Office Mojo
+스페인,2025,8,Father There is Only One 5,,스페인,기타,코미디,0.059,Box Office Mojo
+스페인,2025,9,Mufasa: The Lion King,,미국,할리우드 애니,애니메이션,0.0525,Box Office Mojo
+스페인,2025,10,F1: The Movie,,미국,기타,드라마,0.0431,Box Office Mojo
+스페인,2025,11,The Fantastic Four: First Steps,,미국,할리우드 액션·히어로,슈퍼히어로,0.0408,Box Office Mojo
+스페인,2025,12,Superman,,미국,할리우드 액션·히어로,슈퍼히어로,0.0401,Box Office Mojo
+스페인,2025,13,The Bad Guys 2,,미국,할리우드 애니,애니메이션,0.0371,Box Office Mojo
+스페인,2025,14,Weapons,,미국,기타,공포,0.0328,Box Office Mojo
+스페인,2025,15,Demon Slayer: Kimetsu No Yaiba Infinity Castle,,일본,일본 애니,애니메이션,0.0297,Box Office Mojo
+스페인,2025,16,Captain America: Brave New World,,미국,할리우드 액션·히어로,슈퍼히어로,0.0279,Box Office Mojo
+스페인,2025,17,The Captive,,스페인,자국 액션·애니,액션·어드벤처,0.0246,Box Office Mojo
+스페인,2025,18,Snow White,,미국,기타,가족 실사,0.0246,Box Office Mojo
+스페인,2025,19,Five Nights at Freddy's 2,,미국,기타,공포,0.024,Box Office Mojo
+스페인,2025,20,Thunderbolts*,,미국,할리우드 액션·히어로,슈퍼히어로,0.0235,Box Office Mojo
+스페인,2026,1,The Odyssey,,미국,할리우드 액션·히어로,액션·어드벤처,0.1219,Box Office Mojo
+스페인,2026,2,Spider-Man: Brand New Day,,미국,할리우드 액션·히어로,슈퍼히어로,0.1049,Box Office Mojo
+스페인,2026,3,La bola negra,,스페인,자국 액션·애니,액션·어드벤처,0.1039,Box Office Mojo
+스페인,2026,4,Torrente for President,,스페인,기타,코미디,0.0854,Box Office Mojo
+스페인,2026,5,Michael,,미국,기타,음악·공연,0.0718,Box Office Mojo
+스페인,2026,6,Toy Story 5,,미국,할리우드 애니,애니메이션,0.0634,Box Office Mojo
+스페인,2026,7,The Super Mario Galaxy Movie,,미국,할리우드 애니,애니메이션,0.0528,Box Office Mojo
+스페인,2026,8,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0523,Box Office Mojo
+스페인,2026,9,The Housemaid,,미국,기타,스릴러·범죄,0.0463,Box Office Mojo
+스페인,2026,10,Minions & Monsters,,미국,할리우드 애니,애니메이션,0.0383,Box Office Mojo
+스페인,2026,11,The Devil Wears Prada 2,,미국,기타,코미디,0.0328,Box Office Mojo
+스페인,2026,12,Obsession,,미국,기타,공포,0.0297,Box Office Mojo
+스페인,2026,13,Project Hail Mary,,미국,할리우드 액션·히어로,액션·어드벤처,0.0295,Box Office Mojo
+스페인,2026,14,Moana,,미국,기타,가족 실사,0.0273,Box Office Mojo
+스페인,2026,15,Hoppers,,미국,할리우드 애니,애니메이션,0.0253,Box Office Mojo
+스페인,2026,16,Wuthering Heights,,미국,기타,드라마,0.025,Box Office Mojo
+스페인,2026,17,Hamnet,,미국,기타,드라마,0.024,Box Office Mojo
+스페인,2026,18,Disclosure Day,,미국,할리우드 액션·히어로,액션·어드벤처,0.0239,Box Office Mojo
+스페인,2026,19,Resident Evil,,미국,기타,공포,0.0216,Box Office Mojo
+스페인,2026,20,Tad and the Magic Lamp,,스페인,자국 액션·애니,애니메이션,0.0199,Box Office Mojo
+프랑스,2024,1,A Little Something Extra,,프랑스,기타,코미디,0.1337,Box Office Mojo
+프랑스,2024,2,The Count of Monte Cristo,,프랑스,자국 액션·애니,액션·어드벤처,0.1129,Box Office Mojo
+프랑스,2024,3,Inside Out 2,,미국,할리우드 애니,애니메이션,0.1059,Box Office Mojo
+프랑스,2024,4,Moana 2,,미국,할리우드 애니,애니메이션,0.0899,Box Office Mojo
+프랑스,2024,5,Deadpool & Wolverine,,미국,할리우드 액션·히어로,슈퍼히어로,0.0601,Box Office Mojo
+프랑스,2024,6,Beating Hearts,,프랑스,기타,코미디,0.0572,Box Office Mojo
+프랑스,2024,7,Despicable Me 4,,미국,할리우드 애니,애니메이션,0.0542,Box Office Mojo
+프랑스,2024,8,Dune: Part Two,,미국,할리우드 액션·히어로,액션·어드벤처,0.0507,Box Office Mojo
+프랑스,2024,9,Kingdom of the Planet of the Apes,,미국,할리우드 액션·히어로,액션·어드벤처,0.0394,Box Office Mojo
+프랑스,2024,10,Mufasa: The Lion King,,미국,할리우드 애니,애니메이션,0.0383,Box Office Mojo
+프랑스,2024,11,Gladiator II,,미국,할리우드 액션·히어로,액션·어드벤처,0.0349,Box Office Mojo
+프랑스,2024,12,"La planète des singes, une odyssée de l'espèce",,미확인,기타,다큐멘터리,0.0315,Box Office Mojo
+프랑스,2024,13,Kung Fu Panda 4,,미국,할리우드 애니,애니메이션,0.0294,Box Office Mojo
+프랑스,2024,14,Wonka,,미국,기타,가족 실사,0.0264,Box Office Mojo
+프랑스,2024,15,Bob Marley: One Love,,미국,기타,음악·공연,0.0248,Box Office Mojo
+프랑스,2024,16,Monsieur Aznavour,,프랑스,기타,음악·공연,0.0243,Box Office Mojo
+프랑스,2024,17,Cocorico,,프랑스,기타,코미디,0.0238,Box Office Mojo
+프랑스,2024,18,Beetlejuice Beetlejuice,,미국,기타,공포,0.0211,Box Office Mojo
+프랑스,2024,19,One Life,,영국,기타,액션·어드벤처,0.0207,Box Office Mojo
+프랑스,2024,20,The Wild Robot,,미국,할리우드 애니,애니메이션,0.0207,Box Office Mojo
+프랑스,2025,1,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.139,Box Office Mojo
+프랑스,2025,2,Zootopia 2,,미국,할리우드 애니,애니메이션,0.131,Box Office Mojo
+프랑스,2025,3,Lilo & Stitch,,미국,할리우드 액션·히어로,액션·어드벤처,0.0978,Box Office Mojo
+프랑스,2025,4,Jurassic World: Rebirth,,미국,할리우드 액션·히어로,액션·어드벤처,0.0664,Box Office Mojo
+프랑스,2025,5,F1: The Movie,,미국,기타,드라마,0.0596,Box Office Mojo
+프랑스,2025,6,God Save the Tuche,,프랑스,기타,코미디,0.0507,Box Office Mojo
+프랑스,2025,7,How to Train Your Dragon,,미국,기타,가족 실사,0.0474,Box Office Mojo
+프랑스,2025,8,A Minecraft Movie,,미국,기타,가족 실사,0.0461,Box Office Mojo
+프랑스,2025,9,Mufasa: The Lion King,,미국,할리우드 애니,애니메이션,0.0455,Box Office Mojo
+프랑스,2025,10,The Fantastic Four: First Steps,,미국,할리우드 액션·히어로,슈퍼히어로,0.0366,Box Office Mojo
+프랑스,2025,11,Paddington in Peru,,영국,기타,가족 실사,0.0313,Box Office Mojo
+프랑스,2025,12,Demon Slayer: Kimetsu No Yaiba Infinity Castle,,일본,일본 애니,애니메이션,0.0311,Box Office Mojo
+프랑스,2025,13,Captain America: Brave New World,,미국,할리우드 액션·히어로,슈퍼히어로,0.031,Box Office Mojo
+프랑스,2025,14,Smurfs,,미국,할리우드 애니,애니메이션,0.0299,Box Office Mojo
+프랑스,2025,15,Superman,,미국,할리우드 액션·히어로,슈퍼히어로,0.0287,Box Office Mojo
+프랑스,2025,16,The Bad Guys 2,,미국,할리우드 애니,애니메이션,0.0272,Box Office Mojo
+프랑스,2025,17,Sonic the Hedgehog 3,,미국,할리우드 액션·히어로,액션·어드벤처,0.0258,Box Office Mojo
+프랑스,2025,18,Once Upon My Mother,,프랑스,기타,코미디,0.0256,Box Office Mojo
+프랑스,2025,19,Dog 51,,프랑스,자국 액션·애니,액션·어드벤처,0.0246,Box Office Mojo
+프랑스,2025,20,Thunderbolts*,,미국,할리우드 액션·히어로,슈퍼히어로,0.0246,Box Office Mojo
+프랑스,2026,1,The Odyssey,,미국,할리우드 액션·히어로,액션·어드벤처,0.141,Box Office Mojo
+프랑스,2026,2,Spider-Man: Brand New Day,,미국,할리우드 액션·히어로,슈퍼히어로,0.131,Box Office Mojo
+프랑스,2026,3,Michael,,미국,기타,음악·공연,0.0875,Box Office Mojo
+프랑스,2026,4,The Super Mario Galaxy Movie,,미국,할리우드 애니,애니메이션,0.082,Box Office Mojo
+프랑스,2026,5,Marsupilami,,프랑스,기타,가족 실사,0.0767,Box Office Mojo
+프랑스,2026,6,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0736,Box Office Mojo
+프랑스,2026,7,Toy Story 5,,미국,할리우드 애니,애니메이션,0.0574,Box Office Mojo
+프랑스,2026,8,The Devil Wears Prada 2,,미국,기타,코미디,0.0426,Box Office Mojo
+프랑스,2026,9,The Housemaid,,미국,기타,스릴러·범죄,0.0389,Box Office Mojo
+프랑스,2026,10,Minions & Monsters,,미국,할리우드 애니,애니메이션,0.0365,Box Office Mojo
+프랑스,2026,11,Moana,,미국,기타,가족 실사,0.0309,Box Office Mojo
+프랑스,2026,12,De Gaulle: Résistance,,프랑스,자국 액션·애니,액션·어드벤처,0.0277,Box Office Mojo
+프랑스,2026,13,Zootopia 2,,미국,할리우드 애니,애니메이션,0.0271,Box Office Mojo
+프랑스,2026,14,Guru,,프랑스,기타,스릴러·범죄,0.0251,Box Office Mojo
+프랑스,2026,15,Just an Illusion,,프랑스,기타,코미디,0.0238,Box Office Mojo
+프랑스,2026,16,De Gaulle: Liberté,,프랑스,자국 액션·애니,액션·어드벤처,0.0205,Box Office Mojo
+프랑스,2026,17,Obsession,,미국,기타,공포,0.0197,Box Office Mojo
+프랑스,2026,18,PAW Patrol: The Dino Movie,,캐나다·미국,기타,애니메이션,0.0197,Box Office Mojo
+프랑스,2026,19,Hoppers,,미국,할리우드 애니,애니메이션,0.0196,Box Office Mojo
+프랑스,2026,20,Heart of the Beast,,미국,할리우드 액션·히어로,액션·어드벤처,0.0186,Box Office Mojo
+영국,2024,1,Inside Out 2,,미국,할리우드 애니,애니메이션,0.099,Box Office Mojo
+영국,2024,2,Deadpool & Wolverine,,미국,할리우드 액션·히어로,슈퍼히어로,0.0968,Box Office Mojo
+영국,2024,3,Wicked,,미국,기타,음악·공연,0.0877,Box Office Mojo
+영국,2024,4,Despicable Me 4,,미국,할리우드 애니,애니메이션,0.0813,Box Office Mojo
+영국,2024,5,Paddington 2,,영국,기타,가족 실사,0.073,Box Office Mojo
+영국,2024,6,Dune: Part Two,,미국,할리우드 액션·히어로,액션·어드벤처,0.0648,Box Office Mojo
+영국,2024,7,Moana 2,,미국,할리우드 애니,애니메이션,0.0559,Box Office Mojo
+영국,2024,8,Paddington in Peru,,영국,기타,가족 실사,0.0545,Box Office Mojo
+영국,2024,9,Gladiator II,,미국,할리우드 액션·히어로,액션·어드벤처,0.0509,Box Office Mojo
+영국,2024,10,Beetlejuice Beetlejuice,,미국,기타,공포,0.0435,Box Office Mojo
+영국,2024,11,It Ends with Us,,미국,기타,드라마,0.0371,Box Office Mojo
+영국,2024,12,Kung Fu Panda 4,,미국,할리우드 애니,애니메이션,0.0357,Box Office Mojo
+영국,2024,13,Migration,,미국,할리우드 애니,애니메이션,0.0348,Box Office Mojo
+영국,2024,14,Wonka,,미국,기타,가족 실사,0.0321,Box Office Mojo
+영국,2024,15,Bob Marley: One Love,,미국,기타,음악·공연,0.0283,Box Office Mojo
+영국,2024,16,Kingdom of the Planet of the Apes,,미국,할리우드 액션·히어로,액션·어드벤처,0.0261,Box Office Mojo
+영국,2024,17,Ghostbusters: Frozen Empire,,미국,할리우드 액션·히어로,액션·어드벤처,0.0252,Box Office Mojo
+영국,2024,18,Sonic the Hedgehog 3,,미국,할리우드 액션·히어로,액션·어드벤처,0.0247,Box Office Mojo
+영국,2024,19,Twisters,,미국,할리우드 액션·히어로,액션·어드벤처,0.0243,Box Office Mojo
+영국,2024,20,Godzilla X Kong: The New Empire,,미국,할리우드 액션·히어로,액션·어드벤처,0.0242,Box Office Mojo
+영국,2025,1,A Minecraft Movie,,미국,기타,가족 실사,0.106,Box Office Mojo
+영국,2025,2,Bridget Jones: Mad About the Boy,,영국,기타,코미디,0.0879,Box Office Mojo
+영국,2025,3,Wicked: For Good,,미국,기타,음악·공연,0.0862,Box Office Mojo
+영국,2025,4,Lilo & Stitch,,미국,할리우드 액션·히어로,액션·어드벤처,0.0705,Box Office Mojo
+영국,2025,5,Jurassic World: Rebirth,,미국,할리우드 액션·히어로,액션·어드벤처,0.0667,Box Office Mojo
+영국,2025,6,Superman,,미국,할리우드 액션·히어로,슈퍼히어로,0.0525,Box Office Mojo
+영국,2025,7,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0511,Box Office Mojo
+영국,2025,8,Mission: Impossible - The Final Reckoning,,미국,할리우드 액션·히어로,액션·어드벤처,0.049,Box Office Mojo
+영국,2025,9,Zootopia 2,,미국,할리우드 애니,애니메이션,0.0478,Box Office Mojo
+영국,2025,10,The Fantastic Four: First Steps,,미국,할리우드 액션·히어로,슈퍼히어로,0.0446,Box Office Mojo
+영국,2025,11,How to Train Your Dragon,,미국,기타,가족 실사,0.0429,Box Office Mojo
+영국,2025,12,F1: The Movie,,미국,기타,드라마,0.0416,Box Office Mojo
+영국,2025,13,Mufasa: The Lion King,,미국,할리우드 애니,애니메이션,0.036,Box Office Mojo
+영국,2025,14,Downton Abbey: The Grand Finale,,영국,기타,드라마,0.0346,Box Office Mojo
+영국,2025,15,The Conjuring: Last Rites,,미국,기타,공포,0.0337,Box Office Mojo
+영국,2025,16,Captain America: Brave New World,,미국,할리우드 액션·히어로,슈퍼히어로,0.0318,Box Office Mojo
+영국,2025,17,Sinners,,미국,기타,공포,0.0303,Box Office Mojo
+영국,2025,18,Thunderbolts*,,미국,할리우드 액션·히어로,슈퍼히어로,0.0302,Box Office Mojo
+영국,2025,19,28 Years Later,,영국,기타,공포,0.0293,Box Office Mojo
+영국,2025,20,The Bad Guys 2,,미국,할리우드 애니,애니메이션,0.0274,Box Office Mojo
+영국,2026,1,Spider-Man: Brand New Day,,미국,할리우드 액션·히어로,슈퍼히어로,0.1586,Box Office Mojo
+영국,2026,2,The Odyssey,,미국,할리우드 액션·히어로,액션·어드벤처,0.1396,Box Office Mojo
+영국,2026,3,Toy Story 5,,미국,할리우드 애니,애니메이션,0.0922,Box Office Mojo
+영국,2026,4,Michael,,미국,기타,음악·공연,0.0848,Box Office Mojo
+영국,2026,5,The Super Mario Galaxy Movie,,미국,할리우드 애니,애니메이션,0.0609,Box Office Mojo
+영국,2026,6,The Devil Wears Prada 2,,미국,기타,코미디,0.0548,Box Office Mojo
+영국,2026,7,Project Hail Mary,,미국,할리우드 액션·히어로,액션·어드벤처,0.0544,Box Office Mojo
+영국,2026,8,Wuthering Heights,,미국,기타,드라마,0.0406,Box Office Mojo
+영국,2026,9,The Housemaid,,미국,기타,스릴러·범죄,0.0365,Box Office Mojo
+영국,2026,10,Minions & Monsters,,미국,할리우드 애니,애니메이션,0.0319,Box Office Mojo
+영국,2026,11,Obsession,,미국,기타,공포,0.0316,Box Office Mojo
+영국,2026,12,Hamnet,,미국,기타,드라마,0.0304,Box Office Mojo
+영국,2026,13,Star Wars: The Mandalorian and Grogu,,미국,할리우드 액션·히어로,액션·어드벤처,0.0249,Box Office Mojo
+영국,2026,14,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0246,Box Office Mojo
+영국,2026,15,The Magic Faraway Tree,,영국,기타,가족 실사,0.024,Box Office Mojo
+영국,2026,16,Moana,,미국,기타,가족 실사,0.0233,Box Office Mojo
+영국,2026,17,Resident Evil,,미국,기타,공포,0.023,Box Office Mojo
+영국,2026,18,Hoppers,,미국,할리우드 애니,애니메이션,0.0221,Box Office Mojo
+영국,2026,19,Marty Supreme,,미국,기타,코미디,0.0209,Box Office Mojo
+영국,2026,20,Backrooms,,미국,기타,공포,0.0209,Box Office Mojo
+인도네시아,2024,1,Agak Laen,,인도네시아,기타,코미디,0.1962,Cinepoint
+인도네시아,2024,2,Vina: Sebelum 7 Hari,,인도네시아,기타,공포,0.125,Cinepoint
+인도네시아,2024,3,Kang Mak (From Pee Mak),,인도네시아,기타,공포,0.1045,Cinepoint
+인도네시아,2024,4,Ipar Adalah Maut,,인도네시아,기타,드라마,0.1027,Cinepoint
+인도네시아,2024,5,Badarawuhi di Desa Penari,,인도네시아,기타,공포,0.0863,Cinepoint
+인도네시아,2024,6,Siksa Kubur,,인도네시아,기타,공포,0.086,Cinepoint
+인도네시아,2024,7,Bila Esok Ibu Tiada,,인도네시아,기타,드라마,0.0843,Cinepoint
+인도네시아,2024,8,How To Make Millions Before Grandma Dies,,태국,기타,드라마,0.0763,Cinepoint
+인도네시아,2024,9,Godzilla x Kong: The New Empire,,미국,할리우드 액션·히어로,액션·어드벤처,0.0707,Cinepoint
+인도네시아,2024,10,Deadpool & Wolverine,,미국,할리우드 액션·히어로,슈퍼히어로,0.068,Cinepoint
+인도네시아,2025,1,Jumbo,,인도네시아,자국 액션·애니,애니메이션,0.213,Cinepoint
+인도네시아,2025,2,Agak Laen: Menyala Pantiku!,,인도네시아,기타,코미디,0.2082,Cinepoint
+인도네시아,2025,3,Avatar: Fire And Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.1008,Cinepoint
+인도네시아,2025,4,Pabrik Gula,,인도네시아,기타,공포,0.0984,Cinepoint
+인도네시아,2025,5,The Conjuring: Last Rites,,미국,기타,공포,0.0724,Cinepoint
+인도네시아,2025,6,Petaka Gunung Gede,,인도네시아,기타,공포,0.0675,Cinepoint
+인도네시아,2025,7,Sore Istri Dari Masa Depan,,인도네시아,기타,드라마,0.065,Cinepoint
+인도네시아,2025,8,Komang,,인도네시아,기타,드라마,0.0625,Cinepoint
+인도네시아,2025,9,Jalan Pulang,,인도네시아,기타,공포,0.0599,Cinepoint
+인도네시아,2025,10,Kang Solah From Kang Mak x Nenek Gayung,,인도네시아,기타,공포,0.0522,Cinepoint
+인도네시아,2026,1,Spider-Man: Brand New Day,,미국,할리우드 액션·히어로,슈퍼히어로,0.225,Cinepoint
+인도네시아,2026,2,Danur: The Last Chapter,,인도네시아,기타,공포,0.1167,Cinepoint
+인도네시아,2026,3,Ghost In The Cell,,인도네시아,기타,공포,0.1089,Cinepoint
+인도네시아,2026,4,Jangan Buang Ibu,,인도네시아,기타,드라마,0.1082,Cinepoint
+인도네시아,2026,5,Tunggu Aku Sukses Nanti,,인도네시아,기타,드라마,0.097,Cinepoint
+인도네시아,2026,6,Alas Roban,,인도네시아,기타,공포,0.0785,Cinepoint
+인도네시아,2026,7,Toy Story 5,,미국,할리우드 애니,애니메이션,0.0772,Cinepoint
+인도네시아,2026,8,Sekawan Limo 2: Gunung Klawih,,인도네시아,기타,공포,0.0685,Cinepoint
+인도네시아,2026,9,The Odyssey,,미국,할리우드 액션·히어로,액션·어드벤처,0.0653,Cinepoint
+인도네시아,2026,10,Insidious: Out of The Further,,미국,기타,공포,0.0546,Cinepoint
+인도,2024,1,Pushpa 2: The Rule,,인도,자국 액션·애니,액션·어드벤처,0.2445,Ormax Media
+인도,2024,2,Kalki 2898 AD,,인도,자국 액션·애니,액션·어드벤처,0.1352,Ormax Media
+인도,2024,3,Stree 2,,인도,기타,공포,0.1216,Ormax Media
+인도,2024,4,Devara - Part 1,,인도,자국 액션·애니,액션·어드벤처,0.0605,Ormax Media
+인도,2024,5,Bhool Bhulaiyaa 3,,인도,기타,공포,0.0542,Ormax Media
+인도,2024,6,The Greatest Of All Time,,인도,자국 액션·애니,액션·어드벤처,0.0532,Ormax Media
+인도,2024,7,Singham Again,,인도,자국 액션·애니,액션·어드벤처,0.0518,Ormax Media
+인도,2024,8,Amaran,,인도,자국 액션·애니,액션·어드벤처,0.045,Ormax Media
+인도,2024,9,Fighter,,인도,자국 액션·애니,액션·어드벤처,0.0423,Ormax Media
+인도,2024,10,Hanu-Man,,인도,자국 액션·애니,슈퍼히어로,0.0418,Ormax Media
+인도,2024,11,Mufasa: The Lion King,,미국,할리우드 애니,애니메이션,0.031,Ormax Media
+인도,2024,12,Shaitaan,,인도,기타,공포,0.031,Ormax Media
+인도,2024,13,Vettaiyan,,인도,자국 액션·애니,액션·어드벤처,0.0303,Ormax Media
+인도,2024,14,Manjummel Boys,,인도,기타,스릴러·범죄,0.0296,Ormax Media
+인도,2024,15,Deadpool & Wolverine,,미국,할리우드 액션·히어로,슈퍼히어로,0.0279,Ormax Media
+인도,2025,1,Dhurandhar,,인도,자국 액션·애니,액션·어드벤처,0.1784,Ormax Media
+인도,2025,2,Kantara A Legend: Chapter-1,,인도,자국 액션·애니,액션·어드벤처,0.136,Ormax Media
+인도,2025,3,Chhaava,,인도,자국 액션·애니,액션·어드벤처,0.1301,Ormax Media
+인도,2025,4,Saiyaara,,인도,기타,드라마,0.0744,Ormax Media
+인도,2025,5,Coolie,,인도,자국 액션·애니,액션·어드벤처,0.061,Ormax Media
+인도,2025,6,Mahavatar Narsimha,,인도,자국 액션·애니,애니메이션,0.0565,Ormax Media
+인도,2025,7,War 2,,인도,자국 액션·애니,액션·어드벤처,0.0531,Ormax Media
+인도,2025,8,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0449,Ormax Media
+인도,2025,9,They Call Him OG,,인도,자국 액션·애니,액션·어드벤처,0.0421,Ormax Media
+인도,2025,10,Sankranthiki Vasthunam,,인도,기타,코미디,0.0417,Ormax Media
+인도,2025,11,Sitaare Zameen Par,,인도,기타,드라마,0.0377,Ormax Media
+인도,2025,12,Housefull 5,,인도,기타,코미디,0.0376,Ormax Media
+인도,2025,13,Raid 2,,인도,기타,스릴러·범죄,0.0374,Ormax Media
+인도,2025,14,Lokah Chapter 1: Chandra,,인도,자국 액션·애니,슈퍼히어로,0.0349,Ormax Media
+인도,2025,15,Good Bad Ugly,,인도,자국 액션·애니,액션·어드벤처,0.0342,Ormax Media
+인도,2026,1,Dhurandhar: The Revenge,,인도,자국 액션·애니,액션·어드벤처,0.3433,Ormax Media
+인도,2026,2,Border 2,,인도,자국 액션·애니,액션·어드벤처,0.1019,Ormax Media
+인도,2026,3,Peddi,,인도,자국 액션·애니,액션·어드벤처,0.0758,Ormax Media
+인도,2026,4,Mana Shankara Vara Prasad Garu,,인도,기타,코미디,0.0685,Ormax Media
+인도,2026,5,Karuppu,,인도,자국 액션·애니,액션·어드벤처,0.0616,Ormax Media
+인도,2026,6,Bhooth Bangla,,인도,기타,공포,0.0546,Ormax Media
+인도,2026,7,The RajaSaab,,인도,기타,공포,0.0462,Ormax Media
+인도,2026,8,Welcome To The Jungle,,인도,기타,코미디,0.0441,Ormax Media
+인도,2026,9,Vaazha 2,,인도,기타,코미디,0.0379,Ormax Media
+인도,2026,10,Drishyam 3,,인도,기타,스릴러·범죄,0.0347,Ormax Media
+인도,2026,11,Raja Shivaji,,인도,자국 액션·애니,액션·어드벤처,0.0304,Ormax Media
+인도,2026,12,Cocktail 2,,인도,기타,코미디,0.0277,Ormax Media
+인도,2026,13,Obsession,,미국,기타,공포,0.0269,Ormax Media
+인도,2026,14,Project Hail Mary,,미국,할리우드 액션·히어로,액션·어드벤처,0.0237,Ormax Media
+인도,2026,15,Ustaad Bhagat Singh,,인도,자국 액션·애니,액션·어드벤처,0.0228,Ormax Media
+일본,2024,1,Detective Conan: The Million-Dollar Pentagram,,일본,일본 애니,애니메이션,0.1644,Box Office Mojo
+일본,2024,2,Haikyu!! The Dumpster Battle,,일본,일본 애니,애니메이션,0.132,Box Office Mojo
+일본,2024,3,Kingdom 4: Return of the Great General,,일본,자국 액션·애니,액션·어드벤처,0.0912,Box Office Mojo
+일본,2024,4,Last Mile,,일본,기타,스릴러·범죄,0.0627,Box Office Mojo
+일본,2024,5,Inside Out 2,,미국,할리우드 애니,애니메이션,0.0596,Box Office Mojo
+일본,2024,6,Mobile Suit Gundam SEED Freedom,,일본,일본 애니,애니메이션,0.0586,Box Office Mojo
+일본,2024,7,A Strange House,,일본,기타,스릴러·범죄,0.052,Box Office Mojo
+일본,2024,8,Despicable Me 4,,미국,할리우드 애니,애니메이션,0.0509,Box Office Mojo
+일본,2024,9,Doraemon the Movie: Nobita's Earth Symphony,,일본,일본 애니,애니메이션,0.0424,Box Office Mojo
+일본,2024,10,Moana 2,,미국,할리우드 애니,애니메이션,0.0336,Box Office Mojo
+일본,2024,11,Golden Kamuy,,일본,자국 액션·애니,액션·어드벤처,0.0322,Box Office Mojo
+일본,2024,12,Cells at Work!,,일본,자국 액션·애니,액션·어드벤처,0.0292,Box Office Mojo
+일본,2024,13,Crayon Shin-chan: Our Dinosaur Diary,,일본,일본 애니,애니메이션,0.029,Box Office Mojo
+일본,2024,14,Spy x Family Code: White,,일본,일본 애니,애니메이션,0.0257,Box Office Mojo
+일본,2024,15,My Hero Academia: You're Next,,일본,일본 애니,애니메이션,0.0249,Box Office Mojo
+일본,2024,16,Doctor X: The Movie,,일본,기타,코미디,0.0237,Box Office Mojo
+일본,2024,17,Deadpool & Wolverine,,미국,할리우드 액션·히어로,슈퍼히어로,0.0237,Box Office Mojo
+일본,2024,18,Demon Slayer: Kimetsu No Yaiba - To the Hashira Training,,일본,일본 애니,애니메이션,0.023,Box Office Mojo
+일본,2024,19,Godzilla Minus One,,일본,자국 액션·애니,액션·어드벤처,0.0224,Box Office Mojo
+일본,2024,20,I Wish I Could Meet You Again on the Hill Where That Flower Blooms (2023),,일본,기타,드라마,0.019,Box Office Mojo
+일본,2025,1,Demon Slayer: Kimetsu No Yaiba Infinity Castle,,일본,일본 애니,애니메이션,0.2638,Box Office Mojo
+일본,2025,2,Kokuho,,일본,기타,드라마,0.125,Box Office Mojo
+일본,2025,3,Detective Conan: One-Eyed Flashback,,일본,일본 애니,애니메이션,0.1035,Box Office Mojo
+일본,2025,4,Chainsaw Man - The Movie: Reze Arc,,일본,일본 애니,애니메이션,0.0678,Box Office Mojo
+일본,2025,5,Zootopia 2,,미국,할리우드 애니,애니메이션,0.0555,Box Office Mojo
+일본,2025,6,Tokyo Mer the Movie: Nankai Mission,,일본,기타,드라마,0.0362,Box Office Mojo
+일본,2025,7,Jurassic World: Rebirth,,미국,할리우드 액션·히어로,액션·어드벤처,0.0353,Box Office Mojo
+일본,2025,8,Exit 8,,일본,기타,공포,0.0346,Box Office Mojo
+일본,2025,9,Doraemon: Nobita's Art World Tales,,일본,일본 애니,애니메이션,0.0332,Box Office Mojo
+일본,2025,10,A Minecraft Movie,,미국,기타,가족 실사,0.0284,Box Office Mojo
+일본,2025,11,Demon Slayer: Kimetsu no Yaiba - Tsuzumi Mansion Arc,,일본,일본 애니,애니메이션,0.0259,Box Office Mojo
+일본,2025,12,Mobile Suit Gundam GQuuuuuuX: Beginning,,일본,일본 애니,애니메이션,0.0257,Box Office Mojo
+일본,2025,13,Wicked,,미국,기타,음악·공연,0.0255,Box Office Mojo
+일본,2025,14,Lilo & Stitch,,미국,할리우드 액션·히어로,액션·어드벤처,0.0248,Box Office Mojo
+일본,2025,15,Cells at Work!,,일본,자국 액션·애니,액션·어드벤처,0.0232,Box Office Mojo
+일본,2025,16,Grand Maison Paris,,일본,기타,드라마,0.0214,Box Office Mojo
+일본,2025,17,Bomb,,일본,기타,스릴러·범죄,0.0193,Box Office Mojo
+일본,2025,18,Gekijô-ban Nintama Rantarô Dokutake Ninja-tai Saikyô no Gunshi,,일본,일본 애니,애니메이션,0.0179,Box Office Mojo
+일본,2025,19,1st Kiss,,일본,기타,드라마,0.0168,Box Office Mojo
+일본,2025,20,366 Days,,일본,기타,드라마,0.0161,Box Office Mojo
+일본,2026,1,Chiikawa the Movie: The Secret of Mermaid Island,,일본,일본 애니,애니메이션,0.1736,Box Office Mojo
+일본,2026,2,Detective Conan: Fallen Angel of the Highway,,일본,일본 애니,애니메이션,0.1234,Box Office Mojo
+일본,2026,3,Toy Story 5,,미국,할리우드 애니,애니메이션,0.1193,Box Office Mojo
+일본,2026,4,Michael,,미국,기타,음악·공연,0.0785,Box Office Mojo
+일본,2026,5,Kingdom 5,,일본,자국 액션·애니,액션·어드벤처,0.0619,Box Office Mojo
+일본,2026,6,Zootopia 2,,미국,할리우드 애니,애니메이션,0.057,Box Office Mojo
+일본,2026,7,Spider-Man: Brand New Day,,미국,할리우드 액션·히어로,슈퍼히어로,0.054,Box Office Mojo
+일본,2026,8,The Devil Wears Prada 2,,미국,기타,코미디,0.0512,Box Office Mojo
+일본,2026,9,Until We Meet Again,,일본,기타,미분류,0.0406,Box Office Mojo
+일본,2026,10,Star Wars: The Mandalorian and Grogu,,미국,할리우드 액션·히어로,액션·어드벤처,0.0336,Box Office Mojo
+일본,2026,11,Cosmic Princess Kaguya!,,일본,일본 애니,애니메이션,0.0298,Box Office Mojo
+일본,2026,13,Crayon Shin-chan the Movie: Spooky! My Yokai Vocation,,일본,일본 애니,애니메이션,0.0249,Box Office Mojo
+일본,2026,14,Puella Magi Madoka Magica the Movie -Walpurgisnacht Rising-,,일본,일본 애니,애니메이션,0.0232,Box Office Mojo
+일본,2026,15,Hoppers,,미국,할리우드 애니,애니메이션,0.0226,Box Office Mojo
+일본,2026,16,Minions & Monsters,,미국,할리우드 애니,애니메이션,0.0222,Box Office Mojo
+일본,2026,17,Mobile Suit Gundam Hathaway: The Sorcery of Nymph Circe,,일본,일본 애니,애니메이션,0.0217,Box Office Mojo
+일본,2026,18,Kyojo: Requiem,,일본,기타,스릴러·범죄,0.0215,Box Office Mojo
+일본,2026,19,The Odyssey,,미국,할리우드 액션·히어로,액션·어드벤처,0.0205,Box Office Mojo
+일본,2026,20,Wicked: For Good,,미국,기타,음악·공연,0.0204,Box Office Mojo
+한국,2024,1,Exhuma,,한국,기타,공포,0.152,Box Office Mojo
+한국,2024,2,The Roundup: Punishment,,한국,자국 액션·애니,액션·어드벤처,0.1494,Box Office Mojo
+한국,2024,3,Inside Out 2,,미국,할리우드 애니,애니메이션,0.115,Box Office Mojo
+한국,2024,4,"I, the Executioner",,한국,자국 액션·애니,액션·어드벤처,0.101,Box Office Mojo
+한국,2024,5,Pilot,,한국,기타,코미디,0.0591,Box Office Mojo
+한국,2024,6,Wonka,,미국,기타,가족 실사,0.0456,Box Office Mojo
+한국,2024,7,The Firefighters,,한국,자국 액션·애니,액션·어드벤처,0.038,Box Office Mojo
+한국,2024,8,Moana 2,,미국,할리우드 애니,애니메이션,0.0375,Box Office Mojo
+한국,2024,9,Escape,,한국,자국 액션·애니,액션·어드벤처,0.0352,Box Office Mojo
+한국,2024,10,Harbin,,한국,자국 액션·애니,액션·어드벤처,0.0302,Box Office Mojo
+한국,2024,11,Dune: Part Two,,미국,할리우드 액션·히어로,액션·어드벤처,0.0277,Box Office Mojo
+한국,2024,12,Alien: Romulus,,미국,기타,공포,0.0258,Box Office Mojo
+한국,2024,13,Wicked,,미국,기타,음악·공연,0.0253,Box Office Mojo
+한국,2024,14,Kung Fu Panda 4,,미국,할리우드 애니,애니메이션,0.0239,Box Office Mojo
+한국,2024,15,Hijack 1971,,한국,자국 액션·애니,액션·어드벤처,0.0238,Box Office Mojo
+한국,2024,16,Deadpool & Wolverine,,미국,할리우드 액션·히어로,슈퍼히어로,0.0238,Box Office Mojo
+한국,2024,17,Citizen of a Kind,,한국,자국 액션·애니,액션·어드벤처,0.0227,Box Office Mojo
+한국,2024,18,Handsome Guys,,한국,기타,공포,0.0221,Box Office Mojo
+한국,2024,19,Furiosa: A Mad Max Saga,,미국,할리우드 액션·히어로,액션·어드벤처,0.0212,Box Office Mojo
+한국,2024,20,Venom: The Last Dance,,미국,할리우드 액션·히어로,슈퍼히어로,0.0206,Box Office Mojo
+한국,2025,1,Zootopia 2,,미국,할리우드 애니,애니메이션,0.1159,Box Office Mojo
+한국,2025,2,Demon Slayer: Kimetsu No Yaiba Infinity Castle,,일본,일본 애니,애니메이션,0.0984,Box Office Mojo
+한국,2025,3,My Daughter Is a Zombie,,한국,기타,공포,0.0859,Box Office Mojo
+한국,2025,4,F1: The Movie,,미국,기타,드라마,0.0837,Box Office Mojo
+한국,2025,5,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0794,Box Office Mojo
+한국,2025,6,Chainsaw Man - The Movie: Reze Arc,,일본,일본 애니,애니메이션,0.0558,Box Office Mojo
+한국,2025,7,Mission: Impossible - The Final Reckoning,,미국,할리우드 액션·히어로,액션·어드벤처,0.0557,Box Office Mojo
+한국,2025,8,Yadang: The Snitch,,한국,자국 액션·애니,액션·어드벤처,0.0511,Box Office Mojo
+한국,2025,9,Harbin,,한국,자국 액션·애니,액션·어드벤처,0.0392,Box Office Mojo
+한국,2025,10,No Other Choice,,한국,기타,코미디,0.0389,Box Office Mojo
+한국,2025,11,Boss,,한국,자국 액션·애니,액션·어드벤처,0.0367,Box Office Mojo
+한국,2025,12,Hitman 2,,한국,자국 액션·애니,액션·어드벤처,0.0357,Box Office Mojo
+한국,2025,13,Jurassic World: Rebirth,,미국,할리우드 액션·히어로,액션·어드벤처,0.0343,Box Office Mojo
+한국,2025,14,The Match,,한국,기타,드라마,0.0318,Box Office Mojo
+한국,2025,15,How to Train Your Dragon,,미국,기타,가족 실사,0.0314,Box Office Mojo
+한국,2025,16,Hi-Five,,한국,자국 액션·애니,액션·어드벤처,0.0291,Box Office Mojo
+한국,2025,17,Noise,,한국,기타,공포,0.027,Box Office Mojo
+한국,2025,18,Dark Nuns,,한국,기타,공포,0.0256,Box Office Mojo
+한국,2025,19,Captain America: Brave New World,,미국,할리우드 액션·히어로,슈퍼히어로,0.023,Box Office Mojo
+한국,2025,20,A Minecraft Movie,,미국,기타,가족 실사,0.0214,Box Office Mojo
+한국,2026,1,The King’s Warden,,한국,기타,드라마,0.2156,Box Office Mojo
+한국,2026,2,The Odyssey,,미국,할리우드 액션·히어로,액션·어드벤처,0.1789,Box Office Mojo
+한국,2026,3,Spider-Man: Brand New Day,,미국,할리우드 액션·히어로,슈퍼히어로,0.1084,Box Office Mojo
+한국,2026,4,Colony,,한국,기타,공포,0.0764,Box Office Mojo
+한국,2026,5,Hope,,한국,기타,공포,0.0572,Box Office Mojo
+한국,2026,6,Project Hail Mary,,미국,할리우드 액션·히어로,액션·어드벤처,0.0415,Box Office Mojo
+한국,2026,7,Salmokji: Whispering Water,,한국,기타,공포,0.0398,Box Office Mojo
+한국,2026,8,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0363,Box Office Mojo
+한국,2026,9,Toy Story 5,,미국,할리우드 애니,애니메이션,0.0361,Box Office Mojo
+한국,2026,10,Once We Were Us,,한국,기타,드라마,0.0283,Box Office Mojo
+한국,2026,11,Humint,,한국,자국 액션·애니,액션·어드벤처,0.0239,Box Office Mojo
+한국,2026,12,Michael,,미국,기타,음악·공연,0.0216,Box Office Mojo
+한국,2026,13,The Super Mario Galaxy Movie,,미국,할리우드 애니,애니메이션,0.0203,Box Office Mojo
+한국,2026,14,The Devil Wears Prada 2,,미국,기타,코미디,0.0199,Box Office Mojo
+한국,2026,15,The Eyes,,한국,기타,공포,0.0196,Box Office Mojo
+한국,2026,16,Backrooms,,미국,기타,공포,0.0164,Box Office Mojo
+한국,2026,17,Wild Sing,,한국,기타,코미디,0.0163,Box Office Mojo
+한국,2026,18,Choir of God,,한국,기타,코미디,0.0161,Box Office Mojo
+한국,2026,19,Obsession,,미국,기타,공포,0.0141,Box Office Mojo
+한국,2026,20,Moana,,미국,기타,가족 실사,0.0133,Box Office Mojo
+멕시코,2024,1,Inside Out 2,,미국,할리우드 애니,애니메이션,0.211,Box Office Mojo
+멕시코,2024,2,Deadpool & Wolverine,,미국,할리우드 액션·히어로,슈퍼히어로,0.0898,Box Office Mojo
+멕시코,2024,3,Despicable Me 4,,미국,할리우드 애니,애니메이션,0.0811,Box Office Mojo
+멕시코,2024,4,Godzilla X Kong: The New Empire,,미국,할리우드 액션·히어로,액션·어드벤처,0.0691,Box Office Mojo
+멕시코,2024,5,Kung Fu Panda 4,,미국,할리우드 애니,애니메이션,0.0599,Box Office Mojo
+멕시코,2024,6,Moana 2,,미국,할리우드 애니,애니메이션,0.0582,Box Office Mojo
+멕시코,2024,7,The Wild Robot,,미국,할리우드 애니,애니메이션,0.0418,Box Office Mojo
+멕시코,2024,8,Kingdom of the Planet of the Apes,,미국,할리우드 액션·히어로,액션·어드벤처,0.0411,Box Office Mojo
+멕시코,2024,9,Beetlejuice Beetlejuice,,미국,기타,공포,0.0398,Box Office Mojo
+멕시코,2024,10,Venom: The Last Dance,,미국,할리우드 액션·히어로,슈퍼히어로,0.0395,Box Office Mojo
+멕시코,2024,11,The Garfield Movie,,미국,할리우드 애니,애니메이션,0.0379,Box Office Mojo
+멕시코,2024,12,Gladiator II,,미국,할리우드 액션·히어로,액션·어드벤처,0.0342,Box Office Mojo
+멕시코,2024,13,Mufasa: The Lion King,,미국,할리우드 애니,애니메이션,0.0321,Box Office Mojo
+멕시코,2024,14,Bad Boys: Ride or Die,,미국,할리우드 액션·히어로,액션·어드벤처,0.0303,Box Office Mojo
+멕시코,2024,15,It Ends with Us,,미국,기타,드라마,0.0279,Box Office Mojo
+멕시코,2024,16,A Quiet Place: Day One,,미국,기타,공포,0.0274,Box Office Mojo
+멕시코,2024,17,Sonic the Hedgehog 3,,미국,할리우드 액션·히어로,액션·어드벤처,0.0212,Box Office Mojo
+멕시코,2024,18,Wicked,,미국,기타,음악·공연,0.0197,Box Office Mojo
+멕시코,2024,19,IF,,미국,기타,가족 실사,0.0191,Box Office Mojo
+멕시코,2024,20,The Substance,,영국·프랑스,기타,공포,0.0189,Box Office Mojo
+멕시코,2025,1,Lilo & Stitch,,미국,할리우드 액션·히어로,액션·어드벤처,0.1491,Box Office Mojo
+멕시코,2025,2,Jurassic World: Rebirth,,미국,할리우드 액션·히어로,액션·어드벤처,0.08,Box Office Mojo
+멕시코,2025,3,Zootopia 2,,미국,할리우드 애니,애니메이션,0.0778,Box Office Mojo
+멕시코,2025,4,A Minecraft Movie,,미국,기타,가족 실사,0.0776,Box Office Mojo
+멕시코,2025,5,The Fantastic Four: First Steps,,미국,할리우드 액션·히어로,슈퍼히어로,0.0669,Box Office Mojo
+멕시코,2025,6,The Conjuring: Last Rites,,미국,기타,공포,0.0632,Box Office Mojo
+멕시코,2025,7,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0585,Box Office Mojo
+멕시코,2025,8,Superman,,미국,할리우드 액션·히어로,슈퍼히어로,0.0468,Box Office Mojo
+멕시코,2025,9,F1: The Movie,,미국,기타,드라마,0.0411,Box Office Mojo
+멕시코,2025,10,Captain America: Brave New World,,미국,할리우드 액션·히어로,슈퍼히어로,0.037,Box Office Mojo
+멕시코,2025,11,Mufasa: The Lion King,,미국,할리우드 애니,애니메이션,0.0368,Box Office Mojo
+멕시코,2025,12,Thunderbolts*,,미국,할리우드 액션·히어로,슈퍼히어로,0.0346,Box Office Mojo
+멕시코,2025,13,Demon Slayer: Kimetsu No Yaiba Infinity Castle,,일본,일본 애니,애니메이션,0.0343,Box Office Mojo
+멕시코,2025,14,How to Train Your Dragon,,미국,기타,가족 실사,0.0326,Box Office Mojo
+멕시코,2025,15,Final Destination: Bloodlines,,미국,기타,공포,0.0325,Box Office Mojo
+멕시코,2025,16,Five Nights at Freddy's 2,,미국,기타,공포,0.0322,Box Office Mojo
+멕시코,2025,17,Black Phone 2,,미국,기타,공포,0.0289,Box Office Mojo
+멕시코,2025,18,Mission: Impossible - The Final Reckoning,,미국,할리우드 액션·히어로,액션·어드벤처,0.0261,Box Office Mojo
+멕시코,2025,19,Freakier Friday,,미국,기타,가족 실사,0.0229,Box Office Mojo
+멕시코,2025,20,Snow White,,미국,기타,가족 실사,0.021,Box Office Mojo
+멕시코,2026,1,Spider-Man: Brand New Day,,미국,할리우드 액션·히어로,슈퍼히어로,0.1668,Box Office Mojo
+멕시코,2026,2,Toy Story 5,,미국,할리우드 애니,애니메이션,0.1584,Box Office Mojo
+멕시코,2026,3,The Super Mario Galaxy Movie,,미국,할리우드 애니,애니메이션,0.1223,Box Office Mojo
+멕시코,2026,4,The Odyssey,,미국,할리우드 액션·히어로,액션·어드벤처,0.0773,Box Office Mojo
+멕시코,2026,5,Michael,,미국,기타,음악·공연,0.0609,Box Office Mojo
+멕시코,2026,6,The Devil Wears Prada 2,,미국,기타,코미디,0.0591,Box Office Mojo
+멕시코,2026,7,Minions & Monsters,,미국,할리우드 애니,애니메이션,0.0366,Box Office Mojo
+멕시코,2026,8,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0359,Box Office Mojo
+멕시코,2026,9,Coyote vs. Acme,,미국,할리우드 애니,애니메이션,0.0346,Box Office Mojo
+멕시코,2026,10,Backrooms,,미국,기타,공포,0.0318,Box Office Mojo
+멕시코,2026,11,Hoppers,,미국,할리우드 애니,애니메이션,0.0305,Box Office Mojo
+멕시코,2026,12,Project Hail Mary,,미국,할리우드 액션·히어로,액션·어드벤처,0.03,Box Office Mojo
+멕시코,2026,13,Disclosure Day,,미국,할리우드 액션·히어로,액션·어드벤처,0.0225,Box Office Mojo
+멕시코,2026,14,Insidious: Out of the Further,,미국,기타,공포,0.021,Box Office Mojo
+멕시코,2026,15,Moana,,미국,기타,가족 실사,0.0203,Box Office Mojo
+멕시코,2026,16,Obsession,,미국,기타,공포,0.0192,Box Office Mojo
+멕시코,2026,17,Wuthering Heights,,미국,기타,드라마,0.0192,Box Office Mojo
+멕시코,2026,18,The Housemaid,,미국,기타,스릴러·범죄,0.0188,Box Office Mojo
+멕시코,2026,19,Resident Evil,,미국,기타,공포,0.018,Box Office Mojo
+멕시코,2026,20,Heart of the Beast,,미국,할리우드 액션·히어로,액션·어드벤처,0.0169,Box Office Mojo
+북미,2024,1,Inside Out 2,,미국,할리우드 애니,애니메이션,0.1252,Box Office Mojo
+북미,2024,2,Deadpool & Wolverine,,미국,할리우드 액션·히어로,슈퍼히어로,0.1221,Box Office Mojo
+북미,2024,3,Wicked,,미국,기타,음악·공연,0.083,Box Office Mojo
+북미,2024,4,Moana 2,,미국,할리우드 애니,애니메이션,0.0775,Box Office Mojo
+북미,2024,5,Despicable Me 4,,미국,할리우드 애니,애니메이션,0.0692,Box Office Mojo
+북미,2024,6,Beetlejuice Beetlejuice,,미국,기타,공포,0.0564,Box Office Mojo
+북미,2024,7,Dune: Part Two,,미국,할리우드 액션·히어로,액션·어드벤처,0.0541,Box Office Mojo
+북미,2024,8,Twisters,,미국,할리우드 액션·히어로,액션·어드벤처,0.0514,Box Office Mojo
+북미,2024,9,Godzilla X Kong: The New Empire,,미국,할리우드 액션·히어로,액션·어드벤처,0.0377,Box Office Mojo
+북미,2024,10,Kung Fu Panda 4,,미국,할리우드 애니,애니메이션,0.0371,Box Office Mojo
+북미,2024,11,Bad Boys: Ride or Die,,미국,할리우드 액션·히어로,액션·어드벤처,0.0371,Box Office Mojo
+북미,2024,12,Kingdom of the Planet of the Apes,,미국,할리우드 액션·히어로,액션·어드벤처,0.0328,Box Office Mojo
+북미,2024,13,Gladiator II,,미국,할리우드 액션·히어로,액션·어드벤처,0.0316,Box Office Mojo
+북미,2024,14,Sonic the Hedgehog 3,,미국,할리우드 액션·히어로,액션·어드벤처,0.0291,Box Office Mojo
+북미,2024,15,It Ends with Us,,미국,기타,드라마,0.0285,Box Office Mojo
+북미,2024,16,The Wild Robot,,미국,할리우드 애니,애니메이션,0.0275,Box Office Mojo
+북미,2024,17,Venom: The Last Dance,,미국,할리우드 액션·히어로,슈퍼히어로,0.0268,Box Office Mojo
+북미,2024,18,A Quiet Place: Day One,,미국,기타,공포,0.0266,Box Office Mojo
+북미,2024,19,Mufasa: The Lion King,,미국,할리우드 애니,애니메이션,0.0246,Box Office Mojo
+북미,2024,20,Ghostbusters: Frozen Empire,,미국,할리우드 액션·히어로,액션·어드벤처,0.0217,Box Office Mojo
+북미,2025,1,A Minecraft Movie,,미국,기타,가족 실사,0.0863,Box Office Mojo
+북미,2025,2,Lilo & Stitch,,미국,할리우드 액션·히어로,액션·어드벤처,0.0863,Box Office Mojo
+북미,2025,3,Superman,,미국,할리우드 액션·히어로,슈퍼히어로,0.0721,Box Office Mojo
+북미,2025,4,Jurassic World: Rebirth,,미국,할리우드 액션·히어로,액션·어드벤처,0.0692,Box Office Mojo
+북미,2025,5,Zootopia 2,,미국,할리우드 애니,애니메이션,0.0688,Box Office Mojo
+북미,2025,6,Wicked: For Good,,미국,기타,음악·공연,0.0683,Box Office Mojo
+북미,2025,7,Sinners,,미국,기타,공포,0.057,Box Office Mojo
+북미,2025,8,The Fantastic Four: First Steps,,미국,할리우드 액션·히어로,슈퍼히어로,0.0559,Box Office Mojo
+북미,2025,9,How to Train Your Dragon,,미국,기타,가족 실사,0.0536,Box Office Mojo
+북미,2025,10,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.051,Box Office Mojo
+북미,2025,11,Captain America: Brave New World,,미국,할리우드 액션·히어로,슈퍼히어로,0.0408,Box Office Mojo
+북미,2025,12,Mission: Impossible - The Final Reckoning,,미국,할리우드 액션·히어로,액션·어드벤처,0.0402,Box Office Mojo
+북미,2025,13,Thunderbolts*,,미국,할리우드 액션·히어로,슈퍼히어로,0.0388,Box Office Mojo
+북미,2025,14,F1: The Movie,,미국,기타,드라마,0.0386,Box Office Mojo
+북미,2025,15,The Conjuring: Last Rites,,미국,기타,공포,0.0362,Box Office Mojo
+북미,2025,16,Weapons,,미국,기타,공포,0.0309,Box Office Mojo
+북미,2025,17,Final Destination: Bloodlines,,미국,기타,공포,0.0281,Box Office Mojo
+북미,2025,18,Demon Slayer: Kimetsu No Yaiba Infinity Castle,,일본,일본 애니,애니메이션,0.0274,Box Office Mojo
+북미,2025,19,Mufasa: The Lion King,,미국,할리우드 애니,애니메이션,0.0257,Box Office Mojo
+북미,2025,20,Five Nights at Freddy's 2,,미국,기타,공포,0.0248,Box Office Mojo
+북미,2026,1,Spider-Man: Brand New Day,,미국,할리우드 액션·히어로,슈퍼히어로,0.1776,Box Office Mojo
+북미,2026,2,The Odyssey,,미국,할리우드 액션·히어로,액션·어드벤처,0.1159,Box Office Mojo
+북미,2026,3,Toy Story 5,,미국,할리우드 애니,애니메이션,0.089,Box Office Mojo
+북미,2026,4,The Super Mario Galaxy Movie,,미국,할리우드 애니,애니메이션,0.0796,Box Office Mojo
+북미,2026,5,Michael,,미국,기타,음악·공연,0.069,Box Office Mojo
+북미,2026,6,Project Hail Mary,,미국,할리우드 액션·히어로,액션·어드벤처,0.0637,Box Office Mojo
+북미,2026,7,Obsession,,미국,기타,공포,0.0488,Box Office Mojo
+북미,2026,8,The Devil Wears Prada 2,,미국,기타,코미디,0.0409,Box Office Mojo
+북미,2026,9,Backrooms,,미국,기타,공포,0.0366,Box Office Mojo
+북미,2026,10,Minions & Monsters,,미국,할리우드 애니,애니메이션,0.0339,Box Office Mojo
+북미,2026,11,Star Wars: The Mandalorian and Grogu,,미국,할리우드 액션·히어로,액션·어드벤처,0.0329,Box Office Mojo
+북미,2026,12,Hoppers,,미국,할리우드 애니,애니메이션,0.0308,Box Office Mojo
+북미,2026,13,Resident Evil,,미국,기타,공포,0.0293,Box Office Mojo
+북미,2026,14,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0285,Box Office Mojo
+북미,2026,15,Moana,,미국,기타,가족 실사,0.0234,Box Office Mojo
+북미,2026,16,Scream 7,,미국,기타,공포,0.0226,Box Office Mojo
+북미,2026,17,Disclosure Day,,미국,할리우드 액션·히어로,액션·어드벤처,0.0216,Box Office Mojo
+북미,2026,18,Scary Movie,,미국,기타,공포,0.0201,Box Office Mojo
+북미,2026,19,GOAT,,미국,할리우드 애니,애니메이션,0.0191,Box Office Mojo
+북미,2026,20,Zootopia 2,,미국,할리우드 애니,애니메이션,0.0167,Box Office Mojo
+튀르키예,2024,1,Lohusa,,튀르키예,기타,코미디,0.1111,Box Office Mojo
+튀르키예,2024,2,Inside Out 2,,미국,할리우드 애니,애니메이션,0.1072,Box Office Mojo
+튀르키예,2024,3,Kolpaçino 4 4'lük,,튀르키예,기타,코미디,0.093,Box Office Mojo
+튀르키예,2024,4,Rafadan Tayfa 4: Hayrimatör,,튀르키예,자국 액션·애니,애니메이션,0.0908,Box Office Mojo
+튀르키예,2024,5,Deadpool & Wolverine,,미국,할리우드 액션·히어로,슈퍼히어로,0.084,Box Office Mojo
+튀르키예,2024,6,Despicable Me 4,,미국,할리우드 애니,애니메이션,0.0652,Box Office Mojo
+튀르키예,2024,7,Moana 2,,미국,할리우드 애니,애니메이션,0.0613,Box Office Mojo
+튀르키예,2024,8,Dune: Part Two,,미국,할리우드 액션·히어로,액션·어드벤처,0.0444,Box Office Mojo
+튀르키예,2024,9,Kung Fu Panda 4,,미국,할리우드 애니,애니메이션,0.0436,Box Office Mojo
+튀르키예,2024,10,3391 Kilometres,,튀르키예,기타,드라마,0.0434,Box Office Mojo
+튀르키예,2024,11,Çakallarla Dans 7,,튀르키예,기타,코미디,0.0348,Box Office Mojo
+튀르키예,2024,12,Illegal Hayatlar: Meclis,,튀르키예,기타,코미디,0.0327,Box Office Mojo
+튀르키예,2024,13,Venom: The Last Dance,,미국,할리우드 액션·히어로,슈퍼히어로,0.0265,Box Office Mojo
+튀르키예,2024,14,Joker: Folie à Deux,,미국,기타,스릴러·범죄,0.0254,Box Office Mojo
+튀르키예,2024,15,Kingdom of the Planet of the Apes,,미국,할리우드 액션·히어로,액션·어드벤처,0.0254,Box Office Mojo
+튀르키예,2024,16,Siccin 7,,튀르키예,기타,공포,0.0244,Box Office Mojo
+튀르키예,2024,17,Piril: Sayilarin Gizemi,,튀르키예,자국 액션·애니,애니메이션,0.0239,Box Office Mojo
+튀르키예,2024,18,Rafadan Tayfa: Kapadokya,,튀르키예,자국 액션·애니,애니메이션,0.0237,Box Office Mojo
+튀르키예,2024,19,Kardes Takimi,,튀르키예,기타,가족 실사,0.0209,Box Office Mojo
+튀르키예,2024,20,The Wild Robot,,미국,할리우드 애니,애니메이션,0.0183,Box Office Mojo
+튀르키예,2025,1,Yan Yana,,튀르키예,기타,코미디,0.1932,Box Office Mojo
+튀르키예,2025,2,Rafadan Tayfa: Kapadokya,,튀르키예,자국 액션·애니,애니메이션,0.0965,Box Office Mojo
+튀르키예,2025,3,Zootopia 2,,미국,할리우드 애니,애니메이션,0.0773,Box Office Mojo
+튀르키예,2025,4,A Minecraft Movie,,미국,기타,가족 실사,0.0703,Box Office Mojo
+튀르키예,2025,5,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0599,Box Office Mojo
+튀르키예,2025,6,Sihirli Annem: Hepimiz Biriz,,튀르키예,기타,가족 실사,0.0535,Box Office Mojo
+튀르키예,2025,7,The Sleeper,,미확인,기타,액션·어드벤처,0.044,Box Office Mojo
+튀르키예,2025,8,Sibling Team 2,,튀르키예,기타,코미디,0.0402,Box Office Mojo
+튀르키예,2025,9,Champions,,미확인,기타,코미디,0.0368,Box Office Mojo
+튀르키예,2025,10,Kutsal Damacana 5: Zombi,,튀르키예,기타,코미디,0.0361,Box Office Mojo
+튀르키예,2025,11,Siccin 8,,튀르키예,기타,공포,0.035,Box Office Mojo
+튀르키예,2025,12,The Conjuring: Last Rites,,미국,기타,공포,0.034,Box Office Mojo
+튀르키예,2025,13,F1: The Movie,,미국,기타,드라마,0.0316,Box Office Mojo
+튀르키예,2025,14,Quarantine,,미확인,기타,미분류,0.0308,Box Office Mojo
+튀르키예,2025,15,Ask Sadece Bir An,,튀르키예,기타,미분류,0.0299,Box Office Mojo
+튀르키예,2025,16,Kral Sakir: Dunyalar Karisti,,튀르키예,자국 액션·애니,애니메이션,0.0288,Box Office Mojo
+튀르키예,2025,17,Smart Rabbit Momo: The Big Chase,,미확인,기타,애니메이션,0.0276,Box Office Mojo
+튀르키예,2025,18,Smurfs,,미국,할리우드 애니,애니메이션,0.0255,Box Office Mojo
+튀르키예,2025,19,How to Train Your Dragon,,미국,기타,가족 실사,0.0245,Box Office Mojo
+튀르키예,2025,20,Lilo & Stitch,,미국,할리우드 액션·히어로,액션·어드벤처,0.0245,Box Office Mojo
+튀르키예,2026,1,One Battle After Another,,미국,기타,스릴러·범죄,0.4,Box Office Mojo
+튀르키예,2026,2,Spider-Man: Brand New Day,,미국,할리우드 액션·히어로,슈퍼히어로,0.1098,Box Office Mojo
+튀르키예,2026,3,The Odyssey,,미국,할리우드 액션·히어로,액션·어드벤처,0.0985,Box Office Mojo
+튀르키예,2026,4,Yetimhane: Sahipsiz Cinler,,튀르키예,기타,미분류,0.0484,Box Office Mojo
+튀르키예,2026,5,D.I.S.C.O.,,튀르키예,기타,미분류,0.0369,Box Office Mojo
+튀르키예,2026,6,Toy Story 5,,미국,할리우드 애니,애니메이션,0.0341,Box Office Mojo
+튀르키예,2026,7,Avatar: Fire and Ash,,미국,할리우드 액션·히어로,액션·어드벤처,0.0275,Box Office Mojo
+튀르키예,2026,8,Arnie & Barney,,미확인,기타,애니메이션,0.025,Box Office Mojo
+튀르키예,2026,9,Obsession,,미국,기타,공포,0.0247,Box Office Mojo
+튀르키예,2026,10,Hamnet,,미국,기타,드라마,0.0236,Box Office Mojo
+튀르키예,2026,11,Minions & Monsters,,미국,할리우드 애니,애니메이션,0.0208,Box Office Mojo
+튀르키예,2026,12,The SpongeBob Movie: Search for SquarePants,,미국,할리우드 애니,애니메이션,0.0203,Box Office Mojo
+튀르키예,2026,13,Backrooms,,미국,기타,공포,0.0188,Box Office Mojo
+튀르키예,2026,14,Project Hail Mary,,미국,할리우드 액션·히어로,액션·어드벤처,0.0184,Box Office Mojo
+튀르키예,2026,15,Efes'in Sirri,,튀르키예,기타,미분류,0.0177,Box Office Mojo
+튀르키예,2026,16,The Super Mario Galaxy Movie,,미국,할리우드 애니,애니메이션,0.0171,Box Office Mojo
+튀르키예,2026,17,Kardes Takimi 3,,튀르키예,기타,가족 실사,0.0169,Box Office Mojo
+튀르키예,2026,18,Portuguese Love,,미확인,기타,드라마,0.0141,Box Office Mojo
+튀르키예,2026,19,Zootopia 2,,미국,할리우드 애니,애니메이션,0.0138,Box Office Mojo
+튀르키예,2026,20,Michael,,미국,기타,음악·공연,0.0136,Box Office Mojo
+대만,2024,1,Inside Out 2,腦筋急轉彎2,미국,할리우드 애니,애니메이션,0.1551,TFAI
+대만,2024,2,Deadpool & Wolverine,死侍與金鋼狼,미국,할리우드 액션·히어로,슈퍼히어로,0.091,TFAI
+대만,2024,3,Haikyu!! The Dumpster Battle,劇場版 排球少年!! 垃圾場的決戰,일본,일본 애니,애니메이션,0.0811,TFAI
+대만,2024,4,Godzilla x Kong: The New Empire,哥吉拉與金剛 : 新帝國,미국,할리우드 액션·히어로,액션·어드벤처,0.0744,TFAI
+대만,2024,5,Dune: Part Two,沙丘：第二部,미국,할리우드 액션·히어로,액션·어드벤처,0.0707,TFAI
+대만,2024,6,Gatao: The Last Stray,角頭-大橋頭,대만,기타,스릴러·범죄,0.0679,TFAI
+대만,2024,7,Detective Conan: The Million-Dollar Pentagram,名偵探柯南 100萬美元的五稜星,일본,일본 애니,애니메이션,0.0661,TFAI
+대만,2024,8,Despicable Me 4,神偷奶爸 4,미국,할리우드 애니,애니메이션,0.0536,TFAI
+대만,2024,9,Venom: The Last Dance,猛毒最終章：最後一舞,미국,할리우드 액션·히어로,슈퍼히어로,0.0375,TFAI
+대만,2024,10,Spy x Family Code: White,SPY x FAMILY CODE: White,일본,일본 애니,애니메이션,0.0372,TFAI
+대만,2024,11,Exhuma,破墓,한국,기타,공포,0.0339,TFAI
+대만,2024,12,Alien: Romulus,異形：羅穆路斯,미국,기타,공포,0.032,TFAI
+대만,2024,13,Moana 2,海洋奇緣2,미국,할리우드 애니,애니메이션,0.0312,TFAI
+대만,2024,14,Kingdom of the Planet of the Apes,猩球崛起：王國誕生,미국,할리우드 액션·히어로,액션·어드벤처,0.0301,TFAI
+대만,2024,15,Twisters,龍捲風暴,미국,할리우드 액션·히어로,액션·어드벤처,0.0264,TFAI
+대만,2024,16,Bad Boys: Ride or Die,絕地戰警：生死與共,미국,할리우드 액션·히어로,액션·어드벤처,0.0244,TFAI
+대만,2024,17,Joker: Folie à Deux,小丑：雙重瘋狂,미국,기타,스릴러·범죄,0.0237,TFAI
+대만,2024,18,18×2 Beyond Youthful Days,青春18×2 通往有你的旅程,대만,기타,드라마,0.0229,TFAI
+대만,2024,19,Crayon Shin-chan: Our Dinosaur Diary,電影蠟筆小新：我們的恐龍日記,일본,일본 애니,애니메이션,0.0211,TFAI
+대만,2024,20,Aquaman and the Lost Kingdom,水行俠 失落王國,미국,할리우드 액션·히어로,슈퍼히어로,0.0198,TFAI
+대만,2025,1,Demon Slayer: Infinity Castle,劇場版「鬼滅之刃」無限城篇 第一章 猗窩座再襲,일본,일본 애니,애니메이션,0.167,TFAI
+대만,2025,2,Zootopia 2,動物方城市2,미국,할리우드 애니,애니메이션,0.1269,TFAI
+대만,2025,3,F1: The Movie,F1電影,미국,기타,드라마,0.1132,TFAI
+대만,2025,4,Mission: Impossible - The Final Reckoning,不可能的任務：最終清算,미국,할리우드 액션·히어로,액션·어드벤처,0.0894,TFAI
+대만,2025,5,Avatar: Fire and Ash,阿凡達：火與燼,미국,할리우드 액션·히어로,액션·어드벤처,0.0595,TFAI
+대만,2025,6,Jurassic World: Rebirth,侏羅紀世界：重生,미국,할리우드 액션·히어로,액션·어드벤처,0.059,TFAI
+대만,2025,7,Chainsaw Man - The Movie: Reze Arc,劇場版『鏈鋸人 蕾潔篇』,일본,일본 애니,애니메이션,0.0513,TFAI
+대만,2025,8,Detective Conan: One-Eyed Flashback,名偵探柯南 獨眼的殘像,일본,일본 애니,애니메이션,0.0425,TFAI
+대만,2025,9,96 Minutes,96分鐘,대만,자국 액션·애니,액션·어드벤처,0.0408,TFAI
+대만,2025,10,Gatao (2025),角頭－鬥陣欸,대만,기타,스릴러·범죄,0.0372,TFAI
+대만,2025,11,Attack on Titan: The Last Attack,劇場版「進擊的巨人」完結篇THE LAST ATTACK,일본,일본 애니,애니메이션,0.0285,TFAI
+대만,2025,12,A Minecraft Movie,MINECRAFT 麥塊電影,미국,기타,가족 실사,0.0271,TFAI
+대만,2025,13,How to Train Your Dragon,馴龍高手,미국,기타,가족 실사,0.0261,TFAI
+대만,2025,14,Lilo & Stitch,星際寶貝：史迪奇,미국,기타,가족 실사,0.0208,TFAI
+대만,2025,15,Thunderbolts*,雷霆特攻隊,미국,할리우드 액션·히어로,슈퍼히어로,0.0206,TFAI
+대만,2025,16,Captain America: Brave New World,美國隊長:無畏新世界,미국,할리우드 액션·히어로,슈퍼히어로,0.0202,TFAI
+대만,2025,17,Mud Doll,泥娃娃,대만,기타,공포,0.0199,TFAI
+대만,2025,18,Superman,超人,미국,할리우드 액션·히어로,슈퍼히어로,0.0174,TFAI
+대만,2025,19,Final Destination: Bloodlines,絕命終結站 血脈,미국,기타,공포,0.0173,TFAI
+대만,2025,20,Omniscient Reader: The Prophecy,全知讀者視角,한국,기타,액션·어드벤처,0.0155,TFAI
+대만,2026,1,陽光女子合唱團,,대만,기타,미분류,0.1876,TFAI
+대만,2026,2,Spider-Man: Brand New Day,蜘蛛人：重生日,미국,할리우드 액션·히어로,슈퍼히어로,0.1085,TFAI
+대만,2026,3,The Odyssey,奧德賽,미국,할리우드 액션·히어로,액션·어드벤처,0.1038,TFAI
+대만,2026,4,Avatar: Fire and Ash,阿凡達：火與燼,미국,할리우드 액션·히어로,액션·어드벤처,0.0571,TFAI
+대만,2026,5,Hoppers,狸想世界,미국,할리우드 애니,애니메이션,0.0506,TFAI
+대만,2026,6,Toy Story 5,玩具總動員5,미국,할리우드 애니,애니메이션,0.0502,TFAI
+대만,2026,7,屍速禁區,,한국,기타,미분류,0.0494,TFAI
+대만,2026,8,Project Hail Mary,極限返航,미국,할리우드 액션·히어로,액션·어드벤처,0.0446,TFAI
+대만,2026,9,Chiikawa the Movie: The Secret of Mermaid Island,劇場版 吉伊卡哇 人魚島的秘密,일본,일본 애니,애니메이션,0.0414,TFAI
+대만,2026,10,The Super Mario Galaxy Movie,超級瑪利歐銀河電影版,미국,할리우드 애니,애니메이션,0.0414,TFAI
+대만,2026,11,The Devil Wears Prada 2,穿著Prada的惡魔2,미국,기타,코미디,0.0397,TFAI
+대만,2026,12,Detective Conan: Fallen Angel of the Highway,名偵探柯南 高速公路的墮天使,일본,일본 애니,애니메이션,0.0396,TFAI
+대만,2026,13,愛你致死不渝,,미국,기타,미분류,0.0343,TFAI
+대만,2026,14,Zootopia 2,動物方城市2,미국,할리우드 애니,애니메이션,0.0318,TFAI
+대만,2026,15,Minions & Monsters,小小兵&大怪獸,미국,할리우드 애니,애니메이션,0.0277,TFAI
+대만,2026,16,Michael,麥可傑克森,미국,기타,음악·공연,0.0218,TFAI
+대만,2026,17,Resident Evil,惡靈古堡：爆發夜,미국,기타,공포,0.0204,TFAI
+대만,2026,18,冠軍之路,,대만,기타,미분류,0.018,TFAI
+대만,2026,19,網紅老爸,,대만,기타,미분류,0.0167,TFAI
+대만,2026,20,雙囍,,대만,기타,미분류,0.0154,TFAI

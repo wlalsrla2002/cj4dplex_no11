@@ -101,13 +101,22 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
 .vz table.dr th.num,.vz table.dr td.num{text-align:right;font-variant-numeric:tabular-nums}
 .vz table.dr td.m{color:var(--color-fg-muted);white-space:nowrap}
 .vz table.dr td.b{width:26%;min-width:120px}
+.vz table.dr tr.pick{cursor:pointer}
+.vz table.dr tr.pick:hover td{background:var(--color-bg)}
+.vz table.dr tr.pick:focus-visible{outline:2px solid var(--color-fg);outline-offset:-2px}
+.vz table.dr tr.pick.on td{background:var(--color-bg)}
+.vz table.dr tr.pick td.t::after{content:' ›';color:var(--color-fg-muted);font-weight:400}
+.vz table.dr td.loc{display:block;font-size:12px;font-weight:400;color:var(--color-fg-muted)}
+.vz .cdot{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.vz .cdot i{width:9px;height:9px;border-radius:2px;flex:none}
+.vz .mseg{margin-bottom:12px}
 .vz .bc{display:flex;align-items:center;gap:8px}
 .vz .bt{position:relative;flex:1;height:10px;border-radius:5px;background:var(--color-border-line);min-width:60px}
 .vz .bt b{position:absolute;left:0;top:0;bottom:0;border-radius:5px}
 .vz .bt i{position:absolute;top:-3px;bottom:-3px;width:1.5px;background:var(--cds-chart-reference)}
 .vz .bc span{width:2.6em;text-align:right;font-weight:700}
 .vz .bc span.no{font-weight:400;color:var(--color-fg-muted)}
-@container (max-width:559px){.vz table.dr .op{display:none}.vz table.dr td.b{min-width:90px}}
+@container (max-width:559px){.vz table.dr .op{display:none}.vz table.dr .cl{display:none}.vz table.dr td.b{min-width:90px}}
 </style>
 
 <div class="vz">
@@ -118,19 +127,19 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
     </div>
   </header>
 
-  <div class="band"><h2>한국 특별관</h2><span>KOBIS 2024.1~2026.9 개봉 108편 · 특별관 지수 = 같은 영화 특별관 ÷ 일반관 좌석판매율</span><div class="fgrp band-f"><span class="seg-lab">개봉 연도</span><div class="seg" role="group" aria-label="개봉 연도" data-draw="kyr-seg"></div></div></div>
+  <div class="band"><h2>한국 특별관</h2><span>KOBIS 2024.1~2026.9 개봉 108편 · 특별관 선호도 지수 = 같은 영화 특별관 ÷ 일반관 좌석판매율</span><div class="fgrp band-f"><span class="seg-lab">개봉 연도</span><div class="seg" role="group" aria-label="개봉 연도" data-draw="kyr-seg"></div></div></div>
   <div class="grid">
     <div class="card w4 kpi" data-draw="kpi" data-k="all" data-source="kr_films"></div>
     <div class="card w4 kpi" data-draw="kpi" data-k="4D" data-source="kr_format"></div>
     <div class="card w4 kpi" data-draw="kpi" data-k="ScreenX" data-source="kr_format"></div>
 
     <div class="card w7">
-      <div class="ch"><h3>KOBIS 장르별 특별관 지수 · <span data-draw="kyr-name">—</span></h3><span class="unit">중앙값 · 3편 이상 · 막대를 누르면 작품 목록</span></div>
+      <div class="ch"><h3>KOBIS 장르별 특별관 선호도 지수 · <span data-draw="kyr-name">—</span></h3><span class="unit">중앙값 · 3편 이상 · 막대를 누르면 작품 목록</span></div>
       <div class="lg" data-draw="lg-fmt2"></div>
       <div data-draw="kgenre" data-source="kr_genre_year"></div>
     </div>
     <div class="card w5">
-      <div class="ch"><h3><span data-draw="fmt-name">—</span> 지수 상위 12편 · <span data-draw="kyr-name">—</span></h3><span class="unit">배</span></div>
+      <div class="ch"><h3><span data-draw="fmt-name">—</span> 선호도 지수 상위 12편 · <span data-draw="kyr-name">—</span></h3><span class="unit">배</span></div>
       <div class="lg" data-draw="lg-origin"></div>
       <div data-draw="top" data-source="kr_films"></div>
     </div>
@@ -152,8 +161,11 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
       <div data-draw="mgenre" data-source="market_genre_year"></div>
     </div>
     <div class="card">
-      <div class="ch"><h3>나라별 흥행 장르 표 · <span data-draw="yr-name">—</span></h3><span class="unit">흥행 상위 20편 매출 중 비중 (인도는 15편)</span></div>
+      <div class="ch"><h3>나라별 흥행 장르 표 · <span data-draw="yr-name">—</span></h3><span class="unit">흥행 상위 20편 매출 중 비중 (인도 15편·인도네시아 10편) · 나라를 누르면 작품 목록</span></div>
       <div class="dr-wrap"><table class="dr" id="mtable" data-source="market_genre_year"><thead><tr><th>나라</th><th class="num">일본 애니</th><th class="num">할리우드 액션·히어로</th><th class="num">할리우드 애니</th><th class="num">자국 액션·애니</th><th>흥행 1위 장르</th></tr></thead><tbody data-draw="mtable"></tbody></table></div>
+    </div>
+    <div class="card" style="display:none">
+      <div data-draw="mdrill" data-source="market_films"></div>
     </div>
   </div>
 
@@ -260,14 +272,14 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
     }
     const r = (rowsOf('kr_format') || []).find((x) => x.format === k); if (!r) return;
     const c = col()[FKEY[k]];
-    const head = mk('k'); const dot = document.createElement('i'); dot.style.background = c; head.append(dot, document.createTextNode(k + ' 지수 중앙값'));
+    const head = mk('k'); const dot = document.createElement('i'); dot.style.background = c; head.append(dot, document.createTextNode(k + ' 선호도 지수 중앙값'));
     const v = mk('v', r2(+r.median_ratio)); const sm = document.createElement('small'); sm.textContent = '배'; v.appendChild(sm);
     const s = mk('s', `일반관 대비 좌석판매율 우위 작품 ${p0(+r.share_above_1)} · ${r.films}편`);
     const bar = mk('bar1'); const b = document.createElement('b'); b.style.width = (+r.share_above_1 * 100) + '%'; b.style.background = c; bar.appendChild(b);
     el.append(head, v, s, bar);
   });
 
-  // ---------- KOBIS 장르별 특별관 지수 ----------
+  // ---------- KOBIS 장르별 특별관 선호도 지수 ----------
   const gyear = (r) => P().kyear === '전체' || r.open.startsWith(P().kyear);
   const hasGenre = (r, g) => r.genre_kobis.split(',').map((x) => x.trim()).includes(g);
   dash.draw('kgenre', (el) => {
@@ -276,7 +288,7 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
     if (!rows.length) return empty(el, '데이터 없음');
     const sel = dash.params().kgenre || null;
     const w = W(el), bh = 13, gap = 3, grp = bh * 2 + gap + 24, labH = 17, top = 4, h = top + rows.length * grp + 20;
-    const svg = svgOf(el, w, h, 'KOBIS 장르별 4D·ScreenX 특별관 지수');
+    const svg = svgOf(el, w, h, 'KOBIS 장르별 4D·ScreenX 특별관 선호도 지수');
     const x = d3.scaleLinear().domain([0, Math.max(2.2, d3.max(rows, (r) => Math.max(+r.d4_median, +(r.sx_median || 0))) * 1.1)]).range([0, w - 44]);
     const T = tip(el);
     const pick = (name) => {
@@ -478,18 +490,75 @@ body{background:var(--color-bg);color:var(--color-fg);font-family:var(--font-ant
       let acc = 0;
       MG.forEach(([k, l, c]) => {
         const v = +d[k];
-        if (v > 0) svg.append('rect').attr('x', labW + x(acc)).attr('y', y).attr('width', Math.max(0.5, x(v) - 1)).attr('height', bh).attr('rx', 2).attr('fill', c())
+        if (v > 0) svg.append('rect').attr('x', labW + x(acc)).attr('y', y).attr('width', Math.max(0.5, x(v) - 1)).attr('height', bh).attr('rx', 2).attr('fill', c()).style('cursor', 'pointer').on('click', () => pickMkt(d.market))
           .on('pointermove', (ev) => T.show(ev, `${d.market} · ${P().year === '평균' ? '3년 평균' : P().year}`, [...MG.map(([kk, ll, cc]) => [cc(), `${ll} ${p0(+d[kk])}`]), [null, `1위 ${d.top_genre} ${p0(+d.top_share)}`]])).on('pointerleave', T.hide);
         acc += v;
       });
       fg(svg.append('text').attr('x', labW + x(acc) + 5).attr('y', y + bh / 2 + 4).attr('font-size', 12).style('font-weight', 700).style('font-variant-numeric', 'tabular-nums').text(p0(acc)));
     });
   });
+
+  // ---------- 나라별 흥행 작품 목록 (드릴다운) ----------
+  const pickMkt = (m) => {
+    const cur = dash.params().mkt;
+    if (cur === m) { dash.setParams({mkt: null}); return; }
+    dash.setParams({mkt: m, myear: P().year === '평균' ? '2026' : P().year});
+    setTimeout(() => { const c = document.querySelector('[data-draw="mdrill"]'); if (c) c.closest('.card').scrollIntoView({behavior: 'smooth', block: 'nearest'}); }, 60);
+  };
+  const MGC = () => Object.fromEntries(MG.map(([, l, c]) => [l, c()]));
+  dash.draw('mdrill', (el) => {
+    const card = el.closest('.card');
+    const m = dash.params().mkt, f = rowsOf('market_films');
+    if (!m || !f) { card.style.display = 'none'; el.replaceChildren(); return; }
+    const yrs = [...new Set(f.filter((r) => r.market === m).map((r) => r.year))].sort();
+    if (!yrs.length) { card.style.display = 'none'; el.replaceChildren(); return; }
+    const y = yrs.includes(dash.params().myear) ? dash.params().myear : yrs[yrs.length - 1];
+    const films = f.filter((r) => r.market === m && r.year === y).sort((a, b) => +a.rank - +b.rank);
+    card.style.display = '';
+    el.replaceChildren();
+    const head = document.createElement('div'); head.className = 'dr-head';
+    const bb = document.createElement('b'); bb.textContent = `${m} 흥행 상위 ${films.length}편 · ${y}년${y === '2026' ? '(9월 개봉작까지)' : ''}`;
+    const sp = document.createElement('span'); sp.textContent = '출처: ' + [...new Set(films.map((r) => r.source))].join(', ');
+    const x = document.createElement('button'); x.type = 'button'; x.className = 'dr-x'; x.textContent = '닫기 ✕';
+    x.addEventListener('click', () => dash.setParams({mkt: null}));
+    head.append(bb, sp, x); el.appendChild(head);
+    const sg = document.createElement('div'); sg.className = 'seg mseg'; sg.setAttribute('role', 'group'); sg.setAttribute('aria-label', '연도');
+    segment(sg, yrs.map((v) => [v, v]), 'myear', y); el.appendChild(sg);
+    const cc = MGC();
+    const max = d3.max(films, (r) => +r.share) || 1;
+    const wrap = document.createElement('div'); wrap.className = 'dr-wrap';
+    const tb = document.createElement('table'); tb.className = 'dr';
+    const th = document.createElement('thead'); const htr = document.createElement('tr');
+    [['순위', 'num'], ['작품', ''], ['제작국', 'op'], ['장르', 'op'], ['분류', ''], ['매출 비중', '']].forEach(([t, c]) => { const e = document.createElement('th'); e.textContent = t; if (c) e.className = c; htr.appendChild(e); });
+    th.appendChild(htr); tb.appendChild(th);
+    const body = document.createElement('tbody');
+    films.forEach((r) => {
+      const tr = document.createElement('tr');
+      const td = (txt, cls) => { const e = document.createElement('td'); if (cls) e.className = cls; e.textContent = txt; tr.appendChild(e); return e; };
+      td(r.rank, 'num m');
+      const t = td(r.title, 't'); if (r.title_local) { const s = document.createElement('span'); s.className = 'loc'; s.textContent = r.title_local; t.appendChild(s); }
+      td(r.origin, 'm op'); td(r.genre, 'm op');
+      const ce = td('', ''); const cd = document.createElement('span'); cd.className = 'cdot';
+      const dot = document.createElement('i'); dot.style.background = cc[r.category] || 'transparent'; if (!cc[r.category]) dot.style.border = '1px solid var(--color-border-line)';
+      const cl = document.createElement('span'); cl.className = 'cl'; cl.textContent = r.category; cd.title = r.category; cd.append(dot, cl); if (!cc[r.category]) cd.style.color = 'var(--color-fg-muted)'; ce.appendChild(cd);
+      const e = td('', 'b'); const bc = document.createElement('div'); bc.className = 'bc';
+      const bt = document.createElement('div'); bt.className = 'bt';
+      const fill = document.createElement('b'); fill.style.width = (+r.share / max * 100) + '%'; fill.style.background = cc[r.category] || 'var(--cds-chart-muted)'; bt.appendChild(fill);
+      const s2 = document.createElement('span'); s2.textContent = r.share === '' ? '–' : p1(+r.share);
+      bc.append(bt, s2); e.appendChild(bc);
+      body.appendChild(tr);
+    });
+    tb.appendChild(body); wrap.appendChild(tb); el.appendChild(wrap);
+  });
   dash.draw('mtable', (tb) => {
     tb.replaceChildren();
     const rows = mgRows(); if (!rows) return;
     rows.forEach((d) => {
       const tr = document.createElement('tr'); tr.dataset.key = encodeURIComponent(d.market);
+      tr.className = 'pick' + (dash.params().mkt === d.market ? ' on' : ''); tr.tabIndex = 0; tr.setAttribute('role', 'button');
+      tr.setAttribute('aria-pressed', String(dash.params().mkt === d.market)); tr.setAttribute('aria-label', d.market + ' 흥행 상위 작품 보기');
+      const go = () => pickMkt(d.market);
+      tr.addEventListener('click', go); tr.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); go(); } });
       const td = (txt, cls, strong) => { const e = document.createElement('td'); if (cls) e.className = cls; e.textContent = txt; if (strong) e.style.fontWeight = '700'; tr.appendChild(e); return e; };
       td(d.market, 't');
       const vals = MG.map(([k]) => +d[k]); const mx = Math.max(...vals);

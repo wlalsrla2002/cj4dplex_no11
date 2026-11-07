@@ -14,6 +14,7 @@
     market_supply: 'data/market_supply.csv',
     kr_genre_year: 'data/kr_genre_year.csv',
     market_genre_year: 'data/market_genre_year.csv',
+    market_films: 'data/market_films.csv',
   };
   const DEFAULT_PARAMS = {year: '평균', kyear: '전체', fmt: 'd4'};
 
